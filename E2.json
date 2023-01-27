@@ -1,0 +1,3470 @@
+//本剧本由DLine项目组提供 - 提取自异次元通讯5官方版本
+//剧本包含 主剧情 词典 图鉴 日志
+//不得用于商业用途，以及调用本剧本必须标注来源
+{
+    "version": 1,
+    "storyid": "2.1",
+    "storyData": {
+        "E2_82": {
+            "contents": {
+                "ZH_CN": "太好了！"
+            },
+            "inputTime": 854,
+            "id": "E2_82",
+            "nextid": "E2_83",
+            "nextMessageDelayTime": 854,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_83": {
+            "contents": {
+                "ZH_CN": "他们玩牌有惩罚的！我怕死了！只有你能救我了！"
+            },
+            "inputTime": 4845,
+            "id": "E2_83",
+            "nextid": "E2_choicee_15",
+            "nextMessageDelayTime": 4845,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "不就是帮你玩游戏嘛，帮你冒险都试过了，玩个uno算个啥！",
+            "isDayStart": false
+        },
+        "E2_84": {
+            "contents": {
+                "ZH_CN": "不会怪你的啦！"
+            },
+            "inputTime": 1671,
+            "id": "E2_84",
+            "nextid": "E2_85",
+            "nextMessageDelayTime": 1671,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_85": {
+            "contents": {
+                "ZH_CN": "我就是病急乱投医，捞救命稻草了，他们玩牌还带惩罚的..."
+            },
+            "inputTime": 5871,
+            "id": "E2_85",
+            "nextid": "E2_choicee_16",
+            "nextMessageDelayTime": 5871,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_80": {
+            "contents": {
+                "ZH_CN": "赶紧帮我！少废话！"
+            },
+            "inputTime": 2294,
+            "id": "E2_80",
+            "nextid": "E2_81",
+            "nextMessageDelayTime": 2294,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_81": {
+            "contents": {
+                "ZH_CN": "他们玩牌是有惩罚的，要是我被惩罚了，你也跑不掉！"
+            },
+            "inputTime": 5408,
+            "id": "E2_81",
+            "nextid": "E2_choicee_14",
+            "nextMessageDelayTime": 5408,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "真没见过哪个人求人帮忙还这么嚣张的！而且凭什么你被惩罚我也跑不掉啊，我就是吃瓜的好吗！",
+            "isDayStart": false
+        },
+        "E2_86": {
+            "contents": {
+                "ZH_CN": "他们说，输了的就要穿这里服务员那种dirndl裙子为大家服务"
+            },
+            "inputTime": 6763,
+            "id": "E2_86",
+            "nextid": "E2_87",
+            "nextMessageDelayTime": 6763,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_87": {
+            "contents": {
+                "ZH_CN": "要给大家端茶送水的..."
+            },
+            "inputTime": 2925,
+            "id": "E2_87",
+            "nextid": "E2_88",
+            "nextMessageDelayTime": 2925,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_88": {
+            "contents": {
+                "ZH_CN": "什么烂惩罚嘛真是的"
+            },
+            "inputTime": 1879,
+            "id": "E2_88",
+            "nextid": "E2_choicee_17",
+            "nextMessageDelayTime": 1879,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_89": {
+            "contents": {
+                "ZH_CN": "好看是好看，可是感觉很羞耻啊"
+            },
+            "inputTime": 3491,
+            "id": "E2_89",
+            "nextid": "E2_92",
+            "nextMessageDelayTime": 3491,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "正好，还没看过穿dirndl裙的Miko呢(¯﹃¯)",
+            "isDayStart": false
+        },
+        "E2_71": {
+            "contents": {
+                "ZH_CN": "玩什么uno！不如打游戏！有本事跟我1v1啊！跳狙啊！"
+            },
+            "inputTime": 5922,
+            "id": "E2_71",
+            "nextid": "E2_72",
+            "nextMessageDelayTime": 5922,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_72": {
+            "contents": {
+                "ZH_CN": "我..."
+            },
+            "inputTime": 839,
+            "id": "E2_72",
+            "nextid": "E2_73",
+            "nextMessageDelayTime": 839,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_73": {
+            "contents": {
+                "ZH_CN": "不说了！"
+            },
+            "inputTime": 1599,
+            "id": "E2_73",
+            "nextid": "E2_74",
+            "nextMessageDelayTime": 1599,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_74": {
+            "contents": {
+                "ZH_CN": "我回家疗伤了"
+            },
+            "inputTime": 1711,
+            "id": "E2_74",
+            "nextid": "E2_75",
+            "nextMessageDelayTime": 1711,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_70": {
+            "contents": {
+                "ZH_CN": "lo娘茶会什么的太无聊啦！"
+            },
+            "inputTime": 2842,
+            "id": "E2_70",
+            "nextid": "E2_71",
+            "nextMessageDelayTime": 2842,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_79": {
+            "contents": {
+                "ZH_CN": "是不是想死？"
+            },
+            "inputTime": 1900,
+            "id": "E2_79",
+            "nextid": "E2_80",
+            "nextMessageDelayTime": 1900,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_75": {
+            "contents": {
+                "ZH_CN": "下次再聊吧"
+            },
+            "inputTime": 1054,
+            "id": "E2_75",
+            "nextid": "E2_76",
+            "nextMessageDelayTime": 1054,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_76": {
+            "contents": {
+                "ZH_CN": "用户已下线"
+            },
+            "id": "E2_76",
+            "nextid": "E2_219",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "daily": "果然嘛！好好的玩什么uno嘛QAQ玩游戏就是为了赢！我知道了我好好帮你出主意还不行吗你快回来！",
+            "isDayStart": false
+        },
+        "E2_77": {
+            "contents": {
+                "ZH_CN": "好处？你还想什么好处？"
+            },
+            "inputTime": 2328,
+            "id": "E2_77",
+            "nextid": "E2_78",
+            "nextMessageDelayTime": 2328,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_78": {
+            "contents": {
+                "ZH_CN": "又请你吃蛋糕，又跟你聊天，你还天天就想着你的好处！"
+            },
+            "inputTime": 5452,
+            "id": "E2_78",
+            "nextid": "E2_79",
+            "nextMessageDelayTime": 5452,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_36": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "要要要！"
+                    },
+                    "nextid": "E2_219"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "说个时间我准时到！"
+                    },
+                    "nextid": "E2_219"
+                }
+            ],
+            "id": "E2_choicee_36",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_60": {
+            "contents": {
+                "ZH_CN": "哎呀，不管怎样你也要帮我出出主意嘛"
+            },
+            "inputTime": 3700,
+            "id": "E2_60",
+            "nextid": "E2_choicee_12",
+            "nextMessageDelayTime": 3700,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "随便了，虽然一点都不懂uno但反正不管输没输这个锅肯定又是丢给我！",
+            "isDayStart": false
+        },
+        "E2_61": {
+            "contents": {
+                "ZH_CN": "真是的...好吧好吧"
+            },
+            "inputTime": 2193,
+            "id": "E2_61",
+            "nextid": "E2_62",
+            "nextMessageDelayTime": 2193,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_62": {
+            "contents": {
+                "ZH_CN": "我自己玩！行了吧！"
+            },
+            "inputTime": 2555,
+            "id": "E2_62",
+            "nextid": "E2_63",
+            "nextMessageDelayTime": 2555,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_63": {
+            "contents": {
+                "ZH_CN": "用户已下线"
+            },
+            "id": "E2_63",
+            "nextid": "E2_64",
+            "nextMessageDelayTime": 1800000,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "daily": "我后悔了！我才不想背锅，说了不会就不会，坚决不玩哼哼！",
+            "isDayStart": false
+        },
+        "E2_68": {
+            "contents": {
+                "ZH_CN": "恨死Iris了..."
+            },
+            "inputTime": 2433,
+            "id": "E2_68",
+            "nextid": "E2_69",
+            "nextMessageDelayTime": 2433,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_69": {
+            "contents": {
+                "ZH_CN": "还有你！"
+            },
+            "inputTime": 1527,
+            "id": "E2_69",
+            "nextid": "E2_choicee_13",
+            "nextMessageDelayTime": 1527,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_64": {
+            "contents": {
+                "ZH_CN": "用户已上线"
+            },
+            "id": "E2_64",
+            "nextid": "E2_65",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": false
+        },
+        "E2_65": {
+            "contents": {
+                "ZH_CN": "输惨了..."
+            },
+            "inputTime": 1807,
+            "id": "E2_65",
+            "nextid": "E2_66",
+            "nextMessageDelayTime": 1807,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_66": {
+            "contents": {
+                "ZH_CN": "伤心..."
+            },
+            "inputTime": 1372,
+            "id": "E2_66",
+            "nextid": "E2_67",
+            "nextMessageDelayTime": 1372,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_67": {
+            "contents": {
+                "ZH_CN": "不活了我..."
+            },
+            "inputTime": 1830,
+            "id": "E2_67",
+            "nextid": "E2_68",
+            "nextMessageDelayTime": 1830,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_32": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "那Miko当然是最好的"
+                    },
+                    "nextid": "E2_182"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "但还是比不上Miko"
+                    },
+                    "nextid": "E2_182"
+                }
+            ],
+            "id": "E2_choicee_32",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_33": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "领我摆脱困境的..."
+                    },
+                    "nextid": "E2_190"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "领我摆脱困境的..."
+                    },
+                    "nextid": "E2_190"
+                }
+            ],
+            "id": "E2_choicee_33",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_34": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "我一直在的"
+                    },
+                    "nextid": "E2_219"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "下次见"
+                    },
+                    "nextid": "E2_219"
+                }
+            ],
+            "id": "E2_choicee_34",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_35": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "对不起..."
+                    },
+                    "nextid": "E2_210"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "我也没想到..."
+                    },
+                    "nextid": "E2_210"
+                }
+            ],
+            "id": "E2_choicee_35",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_30": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "冷静！最后一搏更要冷静！"
+                    },
+                    "nextid": "E2_156"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "最后要更加耐心了！"
+                    },
+                    "nextid": "E2_156"
+                }
+            ],
+            "id": "E2_choicee_30",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_31": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "看到了..."
+                    },
+                    "nextid": "E2_177"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "Iris真不错啊"
+                    },
+                    "nextid": "E2_180"
+                }
+            ],
+            "id": "E2_choicee_31",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_50": {
+            "contents": {
+                "ZH_CN": "说起来小艾姐还真是亲和力强啊，这么快就凑上牌搭子了"
+            },
+            "inputTime": 5551,
+            "id": "E2_50",
+            "nextid": "E2_51",
+            "nextMessageDelayTime": 5551,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_51": {
+            "contents": {
+                "ZH_CN": "我先去啦！等会再聊"
+            },
+            "inputTime": 2244,
+            "id": "E2_51",
+            "nextid": "E2_52",
+            "nextMessageDelayTime": 2244,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_52": {
+            "contents": {
+                "ZH_CN": "用户已下线"
+            },
+            "id": "E2_52",
+            "nextid": "E2_53",
+            "nextMessageDelayTime": 1800000,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "daily": "要玩uno？uno不就是传说中的“友谊终结神器”吗？友谊的小船怕是要翻水水哦~",
+            "isDayStart": false
+        },
+        "E2_57": {
+            "contents": {
+                "ZH_CN": "要死了"
+            },
+            "inputTime": 1344,
+            "id": "E2_57",
+            "nextid": "E2_choicee_10",
+            "nextMessageDelayTime": 1344,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_58": {
+            "contents": {
+                "ZH_CN": "那你快帮帮我啊"
+            },
+            "inputTime": 2022,
+            "id": "E2_58",
+            "nextid": "E2_59",
+            "nextMessageDelayTime": 2022,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_59": {
+            "contents": {
+                "ZH_CN": "我这都快不行了"
+            },
+            "inputTime": 1969,
+            "id": "E2_59",
+            "nextid": "E2_choicee_11",
+            "nextMessageDelayTime": 1969,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_53": {
+            "contents": {
+                "ZH_CN": "用户已上线"
+            },
+            "id": "E2_53",
+            "nextid": "E2_54",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": false
+        },
+        "E2_54": {
+            "contents": {
+                "ZH_CN": "我觉得我上了他们的圈套了..."
+            },
+            "inputTime": 3167,
+            "id": "E2_54",
+            "nextid": "E2_55",
+            "nextMessageDelayTime": 3167,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_55": {
+            "contents": {
+                "ZH_CN": "一直输啊"
+            },
+            "inputTime": 1383,
+            "id": "E2_55",
+            "nextid": "E2_56",
+            "nextMessageDelayTime": 1383,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_56": {
+            "contents": {
+                "ZH_CN": "一会被禁止，一会被罚二，眼看要到我了，结果又翻转了"
+            },
+            "inputTime": 5570,
+            "id": "E2_56",
+            "nextid": "E2_57",
+            "nextMessageDelayTime": 5570,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_18": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "好啊，先压住他们"
+                    },
+                    "nextid": "E2_198"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "先等一等"
+                    },
+                    "nextid": "E2_98"
+                }
+            ],
+            "id": "E2_choicee_18",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_19": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "好牌要在最重要的时候出"
+                    },
+                    "nextid": "E2_100"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "要先走烂牌再走好牌"
+                    },
+                    "nextid": "E2_100"
+                }
+            ],
+            "id": "E2_choicee_19",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_14": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "还有惩罚？"
+                    },
+                    "nextid": "E2_86"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "什么惩罚？"
+                    },
+                    "nextid": "E2_86"
+                }
+            ],
+            "id": "E2_choicee_14",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_15": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "还有惩罚？"
+                    },
+                    "nextid": "E2_86"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "什么惩罚？"
+                    },
+                    "nextid": "E2_86"
+                }
+            ],
+            "id": "E2_choicee_15",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_16": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "还有惩罚？"
+                    },
+                    "nextid": "E2_86"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "什么惩罚？"
+                    },
+                    "nextid": "E2_86"
+                }
+            ],
+            "id": "E2_choicee_16",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_17": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "咦，挺好看的啊"
+                    },
+                    "nextid": "E2_89"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "我怎么觉得我应该让你输才对啊"
+                    },
+                    "nextid": "E2_90"
+                }
+            ],
+            "id": "E2_choicee_17",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_40": {
+            "contents": {
+                "ZH_CN": "你又来了！"
+            },
+            "inputTime": 1417,
+            "id": "E2_40",
+            "nextid": "E2_41",
+            "nextMessageDelayTime": 1417,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_178": {
+            "contents": {
+                "ZH_CN": "真开心！"
+            },
+            "inputTime": 1295,
+            "id": "E2_178",
+            "nextid": "E2_179",
+            "nextMessageDelayTime": 1295,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_41": {
+            "contents": {
+                "ZH_CN": "不跟你扯了！"
+            },
+            "inputTime": 1831,
+            "id": "E2_41",
+            "nextid": "E2_42",
+            "nextMessageDelayTime": 1831,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_179": {
+            "contents": {
+                "ZH_CN": "多谢多谢，Miko谢谢你啦"
+            },
+            "inputTime": 3311,
+            "id": "E2_179",
+            "nextid": "E2_183",
+            "nextMessageDelayTime": 3311,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "当然要多谢我咯，不是我沉着冷静地指导这场uno怎么赢？膨胀了膨胀了~",
+            "isDayStart": false
+        },
+        "E2_46": {
+            "contents": {
+                "ZH_CN": "哎，你说说，这么多细节，要是我再仔细一点，不是早就明白了嘛"
+            },
+            "inputTime": 5982,
+            "id": "E2_46",
+            "nextid": "E2_47",
+            "nextMessageDelayTime": 5982,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_183": {
+            "contents": {
+                "ZH_CN": "我感觉玩牌跟冒险是一样的啊"
+            },
+            "inputTime": 2953,
+            "id": "E2_183",
+            "nextid": "E2_184",
+            "nextMessageDelayTime": 2953,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_47": {
+            "contents": {
+                "ZH_CN": "我也真是笨"
+            },
+            "inputTime": 1597,
+            "id": "E2_47",
+            "nextid": "E2_choicee_9",
+            "nextMessageDelayTime": 1597,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_184": {
+            "contents": {
+                "ZH_CN": "心态一定得端正，你不是为了出牌而出牌，而是为了最终的结局而去规划"
+            },
+            "inputTime": 6879,
+            "id": "E2_184",
+            "nextid": "E2_185",
+            "nextMessageDelayTime": 6879,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_48": {
+            "contents": {
+                "ZH_CN": "恩恩"
+            },
+            "inputTime": 659,
+            "id": "E2_48",
+            "nextid": "E2_49",
+            "nextMessageDelayTime": 659,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_181": {
+            "contents": {
+                "ZH_CN": "你赶紧说点好听的给我，来抵消这个debuff"
+            },
+            "inputTime": 4573,
+            "id": "E2_181",
+            "nextid": "E2_choicee_32",
+            "nextMessageDelayTime": 4573,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "dictionary": "E2_6",
+            "isDayStart": false
+        },
+        "E2_49": {
+            "contents": {
+                "ZH_CN": "啊，小艾姐叫我去打牌，他们在玩uno，叫我一起去"
+            },
+            "inputTime": 5305,
+            "id": "E2_49",
+            "nextid": "E2_50",
+            "nextMessageDelayTime": 5305,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "dictionary": "E2_1",
+            "isDayStart": false
+        },
+        "E2_182": {
+            "contents": {
+                "ZH_CN": "嗯，这话我爱听"
+            },
+            "inputTime": 1897,
+            "id": "E2_182",
+            "nextid": "E2_183",
+            "nextMessageDelayTime": 1897,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "刚才我好像说错了什么...在女生面前赞美另一个女生？还好我补得快...",
+            "isDayStart": false
+        },
+        "E2_42": {
+            "contents": {
+                "ZH_CN": "我跟你说，我跟小艾姐聊天我才知道"
+            },
+            "inputTime": 3825,
+            "id": "E2_42",
+            "nextid": "E2_43",
+            "nextMessageDelayTime": 3825,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_187": {
+            "contents": {
+                "ZH_CN": "嗯！"
+            },
+            "inputTime": 1084,
+            "id": "E2_187",
+            "nextid": "E2_188",
+            "nextMessageDelayTime": 1084,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_43": {
+            "contents": {
+                "ZH_CN": "她的英文名字念起来虽然也跟爱丽丝差不多，但并不是alice，而是Iris"
+            },
+            "inputTime": 7535,
+            "id": "E2_43",
+            "nextid": "E2_44",
+            "nextMessageDelayTime": 7535,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_188": {
+            "contents": {
+                "ZH_CN": "我明白了！"
+            },
+            "inputTime": 1045,
+            "id": "E2_188",
+            "nextid": "E2_189",
+            "nextMessageDelayTime": 1045,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_44": {
+            "contents": {
+                "ZH_CN": "是鸢尾花，拉丁语的鸢尾花"
+            },
+            "inputTime": 3070,
+            "id": "E2_44",
+            "nextid": "E2_45",
+            "nextMessageDelayTime": 3070,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_185": {
+            "contents": {
+                "ZH_CN": "这个过程中，各种细节，各种对方的反应，都是留给你的线索啊"
+            },
+            "inputTime": 6393,
+            "id": "E2_185",
+            "nextid": "E2_186",
+            "nextMessageDelayTime": 6393,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_45": {
+            "contents": {
+                "ZH_CN": "想起来，那个大叔说喜欢那餐厅的名字，也包括了喜欢她的名字吧"
+            },
+            "inputTime": 6017,
+            "id": "E2_45",
+            "nextid": "E2_46",
+            "nextMessageDelayTime": 6017,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_186": {
+            "contents": {
+                "ZH_CN": "只要知道自己的道路在哪里，一路走下去，路上采集来的各种信息，最终都会成为帮助走下去的动力和线索啊"
+            },
+            "inputTime": 9667,
+            "id": "E2_186",
+            "nextid": "E2_187",
+            "nextMessageDelayTime": 9667,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_10": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "我也会玩一点uno哦"
+                    },
+                    "nextid": "E2_58"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "我可完全搞不懂uno啊"
+                    },
+                    "nextid": "E2_60"
+                }
+            ],
+            "id": "E2_choicee_10",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_11": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "我有什么好处呢"
+                    },
+                    "nextid": "E2_77"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "好啊！"
+                    },
+                    "nextid": "E2_82"
+                }
+            ],
+            "id": "E2_choicee_11",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_12": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "好好好，输了别怪我哦"
+                    },
+                    "nextid": "E2_84"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "我真的一点都不会嘛"
+                    },
+                    "nextid": "E2_61"
+                }
+            ],
+            "id": "E2_choicee_12",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_13": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "这..."
+                    },
+                    "nextid": "E2_70"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "..."
+                    },
+                    "nextid": "E2_70"
+                }
+            ],
+            "id": "E2_choicee_13",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_180": {
+            "contents": {
+                "ZH_CN": "是不错，不过你这话听上去不对劲啊"
+            },
+            "inputTime": 3324,
+            "id": "E2_180",
+            "nextid": "E2_181",
+            "nextMessageDelayTime": 3324,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_29": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "说得对！"
+                    },
+                    "nextid": "E2_148"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "其实可以再等等"
+                    },
+                    "nextid": "E2_198"
+                }
+            ],
+            "id": "E2_choicee_29",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_25": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "对的，是这个道理"
+                    },
+                    "nextid": "E2_126"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "是的，获取颜色信息第一大渠道是放弃跟牌"
+                    },
+                    "nextid": "E2_126"
+                }
+            ],
+            "id": "E2_choicee_25",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_26": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "你跟我客气？！"
+                    },
+                    "nextid": "E2_132"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "不用谢啦我们什么关系嘛"
+                    },
+                    "nextid": "E2_133"
+                }
+            ],
+            "id": "E2_choicee_26",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_27": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "你这态度..."
+                    },
+                    "nextid": "E2_136"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "好好好"
+                    },
+                    "nextid": "E2_136"
+                }
+            ],
+            "id": "E2_choicee_27",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_28": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "你还抢人家牌看啊"
+                    },
+                    "nextid": "E2_143"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "你才是坏人吧..."
+                    },
+                    "nextid": "E2_143"
+                }
+            ],
+            "id": "E2_choicee_28",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_169": {
+            "contents": {
+                "ZH_CN": "闹起来了"
+            },
+            "inputTime": 1237,
+            "id": "E2_169",
+            "nextid": "E2_170",
+            "nextMessageDelayTime": 1237,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_167": {
+            "contents": {
+                "ZH_CN": "等等等等"
+            },
+            "inputTime": 1440,
+            "id": "E2_167",
+            "nextid": "E2_168",
+            "nextMessageDelayTime": 1440,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_30": {
+            "contents": {
+                "ZH_CN": "会计师，数学，想想我都崩溃了"
+            },
+            "inputTime": 3223,
+            "id": "E2_30",
+            "nextid": "E2_31",
+            "nextMessageDelayTime": 3223,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_168": {
+            "contents": {
+                "ZH_CN": "哈哈哈哈哈"
+            },
+            "inputTime": 1159,
+            "id": "E2_168",
+            "nextid": "E2_169",
+            "nextMessageDelayTime": 1159,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_35": {
+            "contents": {
+                "ZH_CN": "混蛋！"
+            },
+            "inputTime": 918,
+            "id": "E2_35",
+            "nextid": "E2_36",
+            "nextMessageDelayTime": 918,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_172": {
+            "contents": {
+                "ZH_CN": "就让我来帮她完成惩罚！"
+            },
+            "inputTime": 2864,
+            "id": "E2_172",
+            "nextid": "E2_173",
+            "nextMessageDelayTime": 2864,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_36": {
+            "contents": {
+                "ZH_CN": "不要拿数学来戳我！"
+            },
+            "inputTime": 2532,
+            "id": "E2_36",
+            "nextid": "E2_41",
+            "nextMessageDelayTime": 2532,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_173": {
+            "contents": {
+                "ZH_CN": "用户已下线"
+            },
+            "id": "E2_173",
+            "nextid": "E2_174",
+            "nextMessageDelayTime": 300000,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": false
+        },
+        "E2_37": {
+            "contents": {
+                "ZH_CN": "是吧！"
+            },
+            "inputTime": 694,
+            "id": "E2_37",
+            "nextid": "E2_38",
+            "nextMessageDelayTime": 694,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "Miko你忘了吗？你们蓝带学院没开数学课吧这不怪你！（我这波挽尊怎么样？",
+            "isDayStart": false
+        },
+        "E2_170": {
+            "contents": {
+                "ZH_CN": "小艾姐要耍赖，她要耍赖了！"
+            },
+            "inputTime": 2640,
+            "id": "E2_170",
+            "nextid": "E2_171",
+            "nextMessageDelayTime": 2640,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_38": {
+            "contents": {
+                "ZH_CN": "有的人就是不适合学数学嘛，天生对数字就不敏感"
+            },
+            "inputTime": 4548,
+            "id": "E2_38",
+            "nextid": "E2_choicee_8",
+            "nextMessageDelayTime": 4548,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_171": {
+            "contents": {
+                "ZH_CN": "这种事情有我在哪里由得她！"
+            },
+            "inputTime": 3083,
+            "id": "E2_171",
+            "nextid": "E2_172",
+            "nextMessageDelayTime": 3083,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_31": {
+            "contents": {
+                "ZH_CN": "真是好厉害，想不到这么漂亮的小姐姐居然数学这么厉害..."
+            },
+            "inputTime": 5756,
+            "id": "E2_31",
+            "nextid": "E2_choicee_6",
+            "nextMessageDelayTime": 5756,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_176": {
+            "contents": {
+                "ZH_CN": "快快快，快看我动态！"
+            },
+            "inputTime": 2122,
+            "id": "E2_176",
+            "nextid": "E2_choicee_31",
+            "nextMessageDelayTime": 2122,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_32": {
+            "contents": {
+                "ZH_CN": "我不跟你计较！"
+            },
+            "inputTime": 2069,
+            "id": "E2_32",
+            "nextid": "E2_33",
+            "nextMessageDelayTime": 2069,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_177": {
+            "contents": {
+                "ZH_CN": "哈哈哈哈哈"
+            },
+            "inputTime": 1210,
+            "id": "E2_177",
+            "nextid": "E2_178",
+            "nextMessageDelayTime": 1210,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_33": {
+            "contents": {
+                "ZH_CN": "数学差并不是我的错，是学校不对！就根本不应该让不适合的人学数学嘛"
+            },
+            "inputTime": 6752,
+            "id": "E2_33",
+            "nextid": "E2_34",
+            "nextMessageDelayTime": 6752,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "数学不好怪老师怪学校，体育老师听了都想打人！好好回忆一下，当年体育老师是怎么教你数学的！",
+            "isDayStart": false
+        },
+        "E2_174": {
+            "contents": {
+                "ZH_CN": "用户已上线"
+            },
+            "id": "E2_174",
+            "nextid": "E2_175",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": false
+        },
+        "E2_34": {
+            "contents": {
+                "ZH_CN": "小艾姐这样数学天才就应该在数学上发挥才能，而我就应该在..."
+            },
+            "inputTime": 6768,
+            "id": "E2_34",
+            "nextid": "E2_choicee_7",
+            "nextMessageDelayTime": 6768,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_175": {
+            "photoid": "E2-02",
+            "contents": {
+                "ZH_CN": "[E2-02]\u0026虽然是受惩罚，可是Iris这样子还蛮好看的咧hhhhhhh"
+            },
+            "id": "E2_175",
+            "nextid": "E2_176",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_TIMELINE",
+            "isDayStart": false
+        },
+        "E2_choicee_21": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "拿到弱牌就靠偷袭了"
+                    },
+                    "nextid": "E2_106"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "那反而要轻松些了"
+                    },
+                    "nextid": "E2_106"
+                }
+            ],
+            "id": "E2_choicee_21",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_22": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "装死你一整套啊"
+                    },
+                    "nextid": "E2_109"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "耍赖你最行"
+                    },
+                    "nextid": "E2_109"
+                }
+            ],
+            "id": "E2_choicee_22",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_23": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "她没有同色牌了"
+                    },
+                    "nextid": "E2_122"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "有可能是她在藏牌"
+                    },
+                    "nextid": "E2_118"
+                }
+            ],
+            "id": "E2_choicee_23",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_24": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "你说的对"
+                    },
+                    "nextid": "E2_123"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "我觉得不是这样"
+                    },
+                    "nextid": "E2_198"
+                }
+            ],
+            "id": "E2_choicee_24",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_39": {
+            "contents": {
+                "ZH_CN": "喂！"
+            },
+            "inputTime": 1149,
+            "id": "E2_39",
+            "nextid": "E2_40",
+            "nextMessageDelayTime": 1149,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_20": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "真聪明"
+                    },
+                    "nextid": "E2_104"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "对！"
+                    },
+                    "nextid": "E2_104"
+                }
+            ],
+            "id": "E2_choicee_20",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_24": {
+            "contents": {
+                "ZH_CN": "而且，我的小裙子找回来啦！"
+            },
+            "inputTime": 2746,
+            "id": "E2_24",
+            "nextid": "E2_25",
+            "nextMessageDelayTime": 2746,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_25": {
+            "contents": {
+                "ZH_CN": "我去那个小商店，老板娘还不错，我的小裙子保管得好好的，我又拿回来啦"
+            },
+            "inputTime": 6658,
+            "id": "E2_25",
+            "nextid": "E2_26",
+            "nextMessageDelayTime": 6658,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_26": {
+            "contents": {
+                "ZH_CN": "哼哼，毕竟这么漂亮的小裙子，又这么有意义，怎么舍得"
+            },
+            "inputTime": 5763,
+            "id": "E2_26",
+            "nextid": "E2_choicee_5",
+            "nextMessageDelayTime": 5763,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "Miko一个电话，就有200个lo娘在莱恩旧梦开茶会……",
+            "isDayStart": false
+        },
+        "E2_27": {
+            "contents": {
+                "ZH_CN": "不过你知道吗，今天才有空跟小艾姐好好聊聊，觉得她好厉害"
+            },
+            "inputTime": 5745,
+            "id": "E2_27",
+            "nextid": "E2_28",
+            "nextMessageDelayTime": 5745,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_20": {
+            "photoid": "E2-01",
+            "contents": {
+                "ZH_CN": "[E2-01]\u0026全部是漂亮的小姐姐啊~~~"
+            },
+            "id": "E2_20",
+            "nextid": "E2_21",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_TIMELINE",
+            "isDayStart": false
+        },
+        "E2_21": {
+            "contents": {
+                "ZH_CN": "我带小艾姐姐来lo娘茶会啦！"
+            },
+            "inputTime": 3133,
+            "id": "E2_21",
+            "nextid": "E2_22",
+            "nextMessageDelayTime": 3133,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_22": {
+            "contents": {
+                "ZH_CN": "莱恩旧梦这里的lo娘茶会要办好几天呢"
+            },
+            "inputTime": 3676,
+            "id": "E2_22",
+            "nextid": "E2_23",
+            "nextMessageDelayTime": 3676,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_23": {
+            "contents": {
+                "ZH_CN": "我想小艾姐真是好人，又那么喜欢lo裙，那我就带她一起来玩啦"
+            },
+            "inputTime": 6594,
+            "id": "E2_23",
+            "nextid": "E2_24",
+            "nextMessageDelayTime": 6594,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_28": {
+            "contents": {
+                "ZH_CN": "她上学的时候就一直在外面各种打工实习，经历不少事情了，社会经验比我丰富多了"
+            },
+            "inputTime": 7898,
+            "id": "E2_28",
+            "nextid": "E2_29",
+            "nextMessageDelayTime": 7898,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_29": {
+            "contents": {
+                "ZH_CN": "而且她现在虽然还是大四实习，但是已经跟会计师事务所签约了呢，毕业就会去工作了"
+            },
+            "inputTime": 7714,
+            "id": "E2_29",
+            "nextid": "E2_30",
+            "nextMessageDelayTime": 7714,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_1": {
+            "contents": {
+                "ZH_CN": "网络连接中…"
+            },
+            "id": "E2_1",
+            "nextid": "E2_2",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "scence": "莱恩旧梦-好结局",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": true
+        },
+        "E2_189": {
+            "contents": {
+                "ZH_CN": "走在未知的道路上，不许停也不能回头！"
+            },
+            "inputTime": 4328,
+            "id": "E2_189",
+            "nextid": "E2_choicee_33",
+            "nextMessageDelayTime": 4328,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_13": {
+            "contents": {
+                "ZH_CN": "哎，要死"
+            },
+            "inputTime": 824,
+            "id": "E2_13",
+            "nextid": "E2_14",
+            "nextMessageDelayTime": 824,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_194": {
+            "contents": {
+                "ZH_CN": "哎，真高兴..."
+            },
+            "inputTime": 2212,
+            "id": "E2_194",
+            "nextid": "E2_195",
+            "nextMessageDelayTime": 2212,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_14": {
+            "contents": {
+                "ZH_CN": "不过他回来还有几天，我也就只有几天好日子过喽"
+            },
+            "inputTime": 4591,
+            "id": "E2_14",
+            "nextid": "E2_15",
+            "nextMessageDelayTime": 4591,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_195": {
+            "contents": {
+                "ZH_CN": "我这边继续玩啦，小艾姐还说下次带我去海洋馆一起玩呢，先不聊了哈"
+            },
+            "inputTime": 6426,
+            "id": "E2_195",
+            "nextid": "E2_196",
+            "nextMessageDelayTime": 6426,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_15": {
+            "contents": {
+                "ZH_CN": "对了，你猜猜我现在在干嘛"
+            },
+            "inputTime": 2513,
+            "id": "E2_15",
+            "nextid": "E2_choicee_4",
+            "nextMessageDelayTime": 2513,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_192": {
+            "contents": {
+                "ZH_CN": "是你！"
+            },
+            "inputTime": 738,
+            "id": "E2_192",
+            "nextid": "E2_193",
+            "nextMessageDelayTime": 738,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_16": {
+            "contents": {
+                "ZH_CN": "当然是玩，还能最后玩几天了"
+            },
+            "inputTime": 2971,
+            "id": "E2_16",
+            "nextid": "E2_17",
+            "nextMessageDelayTime": 2971,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "什么叫还能最后玩几天？？？不是刚在图书馆搞完破坏吗又想跑去哪捣乱？",
+            "isDayStart": false
+        },
+        "E2_193": {
+            "contents": {
+                "ZH_CN": "也是我们一起！"
+            },
+            "inputTime": 1951,
+            "id": "E2_193",
+            "nextid": "E2_194",
+            "nextMessageDelayTime": 1951,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_198": {
+            "contents": {
+                "ZH_CN": "真的么？"
+            },
+            "inputTime": 1111,
+            "id": "E2_198",
+            "nextid": "E2_199",
+            "nextMessageDelayTime": 1111,
+            "day": "D1",
+            "scence": "莱恩旧梦-坏结局",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_10": {
+            "contents": {
+                "ZH_CN": "最后他们全部都被抓啦，警察消防队保安全都来了，那叫热闹啊"
+            },
+            "inputTime": 5634,
+            "id": "E2_10",
+            "nextid": "E2_11",
+            "nextMessageDelayTime": 5634,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_199": {
+            "contents": {
+                "ZH_CN": "我怎么觉得不太对呢"
+            },
+            "inputTime": 1937,
+            "id": "E2_199",
+            "nextid": "E2_200",
+            "nextMessageDelayTime": 1937,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_11": {
+            "contents": {
+                "ZH_CN": "不过我也跑去警察局背了半天书"
+            },
+            "inputTime": 3577,
+            "id": "E2_11",
+            "nextid": "E2_12",
+            "nextMessageDelayTime": 3577,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_196": {
+            "contents": {
+                "ZH_CN": "谢谢你陪我！谢谢你给我那么多好的建议！"
+            },
+            "inputTime": 4412,
+            "id": "E2_196",
+            "nextid": "E2_197",
+            "nextMessageDelayTime": 4412,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_12": {
+            "contents": {
+                "ZH_CN": "他们通知我爸，我爸没跟我通话，我估计我要完蛋..."
+            },
+            "inputTime": 5582,
+            "id": "E2_12",
+            "nextid": "E2_choicee_3",
+            "nextMessageDelayTime": 5582,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_197": {
+            "contents": {
+                "ZH_CN": "你要一直在哦！"
+            },
+            "inputTime": 1722,
+            "id": "E2_197",
+            "nextid": "E2_choicee_34",
+            "nextMessageDelayTime": 1722,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "还是熟悉的配方，熟悉的台词。谁在引领谁不重要，重要的是我们在一起，下次还要再见(づ￣ 3￣)づ",
+            "isDayStart": false
+        },
+        "E2_17": {
+            "contents": {
+                "ZH_CN": "不过你肯定猜不到我在玩什么"
+            },
+            "inputTime": 2923,
+            "id": "E2_17",
+            "nextid": "E2_19",
+            "nextMessageDelayTime": 2923,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_190": {
+            "contents": {
+                "ZH_CN": "是你？"
+            },
+            "inputTime": 672,
+            "id": "E2_190",
+            "nextid": "E2_191",
+            "nextMessageDelayTime": 672,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_18": {
+            "contents": {
+                "ZH_CN": "笨的哦你！"
+            },
+            "inputTime": 1199,
+            "id": "E2_18",
+            "nextid": "E2_19",
+            "nextMessageDelayTime": 1199,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "我哪里笨了！谁能猜到你在干嘛啊，女生就这么喜欢让人猜吗？",
+            "isDayStart": false
+        },
+        "E2_191": {
+            "contents": {
+                "ZH_CN": "还是根本只有我自己？"
+            },
+            "inputTime": 2004,
+            "id": "E2_191",
+            "nextid": "E2_192",
+            "nextMessageDelayTime": 2004,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_19": {
+            "contents": {
+                "ZH_CN": "你看看我动态就知道了！"
+            },
+            "inputTime": 2663,
+            "id": "E2_19",
+            "nextid": "E2_20",
+            "nextMessageDelayTime": 2663,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_2": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "你怎么样了啊"
+                    },
+                    "nextid": "E2_8"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "你安全就最好了"
+                    },
+                    "nextid": "E2_8"
+                }
+            ],
+            "id": "E2_choicee_2",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_1": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "活着啊..."
+                    },
+                    "nextid": "E2_7"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "你怎么就没消息了，急死我了"
+                    },
+                    "nextid": "E2_6"
+                }
+            ],
+            "id": "E2_choicee_1",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_4": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "玩呗，还能干吗"
+                    },
+                    "nextid": "E2_16"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "猜不到"
+                    },
+                    "nextid": "E2_18"
+                }
+            ],
+            "id": "E2_choicee_4",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_3": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "该！"
+                    },
+                    "nextid": "E2_13"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "你好好想想怎么认错吧！"
+                    },
+                    "nextid": "E2_13"
+                }
+            ],
+            "id": "E2_choicee_3",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_6": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "全天下就你的数学最差吧..."
+                    },
+                    "nextid": "E2_32"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "额...我也是数学苦手"
+                    },
+                    "nextid": "E2_37"
+                }
+            ],
+            "id": "E2_choicee_6",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_136": {
+            "contents": {
+                "ZH_CN": "我觉得吧..."
+            },
+            "inputTime": 1455,
+            "id": "E2_136",
+            "nextid": "E2_137",
+            "nextMessageDelayTime": 1455,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_5": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "太好了"
+                    },
+                    "nextid": "E2_27"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "真漂亮"
+                    },
+                    "nextid": "E2_27"
+                }
+            ],
+            "id": "E2_choicee_5",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_137": {
+            "contents": {
+                "ZH_CN": "如果小艾姐之前不是故意为了防守，那她主动出万能牌变色，就是为了她的色牌铺路依情况适当保留。"
+            },
+            "inputTime": 9075,
+            "id": "E2_137",
+            "nextid": "E2_138",
+            "nextMessageDelayTime": 9075,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_8": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "对啊，密码猜不出来就随便按按"
+                    },
+                    "nextid": "E2_39"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "按错密码反正也不会爆炸对不对"
+                    },
+                    "nextid": "E2_39"
+                }
+            ],
+            "id": "E2_choicee_8",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_134": {
+            "contents": {
+                "ZH_CN": "我们什么关系嘛！对不对！"
+            },
+            "inputTime": 3061,
+            "id": "E2_134",
+            "nextid": "E2_135",
+            "nextMessageDelayTime": 3061,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "别说了，you and me，who and who，一声兄dei一世兄dei！",
+            "isDayStart": false
+        },
+        "E2_choicee_7": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "在什么？"
+                    },
+                    "nextid": "E2_35"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "继续说啊"
+                    },
+                    "nextid": "E2_35"
+                }
+            ],
+            "id": "E2_choicee_7",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_135": {
+            "contents": {
+                "ZH_CN": "快说下面怎么出！不说揍你哦！"
+            },
+            "inputTime": 3543,
+            "id": "E2_135",
+            "nextid": "E2_choicee_27",
+            "nextMessageDelayTime": 3543,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_choicee_9": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "还好啦"
+                    },
+                    "nextid": "E2_48"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "没事啦，现在都明白啦"
+                    },
+                    "nextid": "E2_48"
+                }
+            ],
+            "id": "E2_choicee_9",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E2_138": {
+            "contents": {
+                "ZH_CN": "说明她手上有一门强色，现在她不跟拍，更加说明了她当前颜色很缺牌"
+            },
+            "inputTime": 6496,
+            "id": "E2_138",
+            "nextid": "E2_139",
+            "nextMessageDelayTime": 6496,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_139": {
+            "contents": {
+                "ZH_CN": "而且她现在手上剩的牌应该不多了，但她还没有喊uno"
+            },
+            "inputTime": 5218,
+            "id": "E2_139",
+            "nextid": "E2_140",
+            "nextMessageDelayTime": 5218,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "dictionary": "E2_5",
+            "isDayStart": false
+        },
+        "E2_140": {
+            "contents": {
+                "ZH_CN": "哎哎，她把手牌捏得好紧，一点都不露给我看到"
+            },
+            "inputTime": 4400,
+            "id": "E2_140",
+            "nextid": "E2_141",
+            "nextMessageDelayTime": 4400,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_143": {
+            "contents": {
+                "ZH_CN": "哼~"
+            },
+            "inputTime": 933,
+            "id": "E2_143",
+            "nextid": "E2_144",
+            "nextMessageDelayTime": 933,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_144": {
+            "contents": {
+                "ZH_CN": "这样说来，我应该主动变色，把出牌色序改过来"
+            },
+            "inputTime": 4438,
+            "id": "E2_144",
+            "nextid": "E2_145",
+            "nextMessageDelayTime": 4438,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_141": {
+            "contents": {
+                "ZH_CN": "抢都抢过来..."
+            },
+            "inputTime": 2088,
+            "id": "E2_141",
+            "nextid": "E2_142",
+            "nextMessageDelayTime": 2088,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_142": {
+            "contents": {
+                "ZH_CN": "坏人！"
+            },
+            "inputTime": 1256,
+            "id": "E2_142",
+            "nextid": "E2_choicee_28",
+            "nextMessageDelayTime": 1256,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_2": {
+            "contents": {
+                "ZH_CN": "用户已上线"
+            },
+            "id": "E2_2",
+            "nextid": "E2_3",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": false
+        },
+        "E2_3": {
+            "contents": {
+                "ZH_CN": "哈喽嗨！"
+            },
+            "inputTime": 934,
+            "id": "E2_3",
+            "nextid": "E2_4",
+            "nextMessageDelayTime": 934,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_4": {
+            "contents": {
+                "ZH_CN": "还活着么？"
+            },
+            "inputTime": 1780,
+            "id": "E2_4",
+            "nextid": "E2_5",
+            "nextMessageDelayTime": 1780,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_5": {
+            "contents": {
+                "ZH_CN": "喂喂！"
+            },
+            "inputTime": 925,
+            "id": "E2_5",
+            "nextid": "E2_choicee_1",
+            "nextMessageDelayTime": 925,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_6": {
+            "contents": {
+                "ZH_CN": "嗨呀，别急别急，我这不是事情一完就马上联系你了嘛"
+            },
+            "inputTime": 5320,
+            "id": "E2_6",
+            "nextid": "E2_10",
+            "nextMessageDelayTime": 5320,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "这么久才找我，也不知道跑去哪里去浪了~",
+            "isDayStart": false
+        },
+        "E2_7": {
+            "contents": {
+                "ZH_CN": "喂！你都不问问我怎么样了么？！"
+            },
+            "inputTime": 3138,
+            "id": "E2_7",
+            "nextid": "E2_choicee_2",
+            "nextMessageDelayTime": 3138,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "图书馆之后就没了消息了啊，鬼知道你怎么样了哦！",
+            "isDayStart": false
+        },
+        "E2_8": {
+            "contents": {
+                "ZH_CN": "哼哼~"
+            },
+            "inputTime": 1013,
+            "id": "E2_8",
+            "nextid": "E2_9",
+            "nextMessageDelayTime": 1013,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_9": {
+            "contents": {
+                "ZH_CN": "我当然没事啦，有事还能跟你聊天啊"
+            },
+            "inputTime": 3553,
+            "id": "E2_9",
+            "nextid": "E2_10",
+            "nextMessageDelayTime": 3553,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_125": {
+            "contents": {
+                "ZH_CN": "你说我分析得对不对？"
+            },
+            "inputTime": 2338,
+            "id": "E2_125",
+            "nextid": "E2_choicee_25",
+            "nextMessageDelayTime": 2338,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_126": {
+            "contents": {
+                "ZH_CN": "搜集信息果然是这样啊"
+            },
+            "inputTime": 2235,
+            "id": "E2_126",
+            "nextid": "E2_127",
+            "nextMessageDelayTime": 2235,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_123": {
+            "contents": {
+                "ZH_CN": "虽然说她可能还有变色牌留着，但是她之前已经打过一张变色了，还有的可能性很小了对不对？"
+            },
+            "inputTime": 8448,
+            "id": "E2_123",
+            "nextid": "E2_124",
+            "nextMessageDelayTime": 8448,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "dictionary": "E2_4",
+            "isDayStart": false
+        },
+        "E2_124": {
+            "contents": {
+                "ZH_CN": "就算她还有，那她捏着不放，为此憋死自己手上的色牌，这也不太可能"
+            },
+            "inputTime": 6315,
+            "id": "E2_124",
+            "nextid": "E2_125",
+            "nextMessageDelayTime": 6315,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_129": {
+            "contents": {
+                "ZH_CN": "有时候人家说什么，我都不太在意，都是在后来想起来才想起来哦哦哦原来是这样"
+            },
+            "inputTime": 7907,
+            "id": "E2_129",
+            "nextid": "E2_130",
+            "nextMessageDelayTime": 7907,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_127": {
+            "contents": {
+                "ZH_CN": "就是在对方的反应中获得对方的信息"
+            },
+            "inputTime": 3852,
+            "id": "E2_127",
+            "nextid": "E2_128",
+            "nextMessageDelayTime": 3852,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_128": {
+            "contents": {
+                "ZH_CN": "看起来我在这方面还需要加强啊"
+            },
+            "inputTime": 3379,
+            "id": "E2_128",
+            "nextid": "E2_129",
+            "nextMessageDelayTime": 3379,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_132": {
+            "contents": {
+                "ZH_CN": "好好好！不跟你客气！"
+            },
+            "inputTime": 2744,
+            "id": "E2_132",
+            "nextid": "E2_135",
+            "nextMessageDelayTime": 2744,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "嗨，客气啥！我反正一直以来都是瞎说也没有在分析，溜了溜了~",
+            "isDayStart": false
+        },
+        "E2_133": {
+            "contents": {
+                "ZH_CN": "我们什么关系？"
+            },
+            "inputTime": 1782,
+            "id": "E2_133",
+            "nextid": "E2_134",
+            "nextMessageDelayTime": 1782,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_130": {
+            "contents": {
+                "ZH_CN": "就像我这几次遇到事情，各种细节我都注意不过来，都是到最后，才恍然大悟"
+            },
+            "inputTime": 6868,
+            "id": "E2_130",
+            "nextid": "E2_131",
+            "nextMessageDelayTime": 6868,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_131": {
+            "contents": {
+                "ZH_CN": "不过也多亏有你，还是要多谢你！"
+            },
+            "inputTime": 3393,
+            "id": "E2_131",
+            "nextid": "E2_choicee_26",
+            "nextMessageDelayTime": 3393,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_158": {
+            "contents": {
+                "ZH_CN": "哈哈哈哈哈哈啊"
+            },
+            "inputTime": 1840,
+            "id": "E2_158",
+            "nextid": "E2_159",
+            "nextMessageDelayTime": 1840,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_159": {
+            "contents": {
+                "ZH_CN": "用户已下线"
+            },
+            "id": "E2_159",
+            "nextid": "E2_160",
+            "nextMessageDelayTime": 300000,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "daily": "可以说是非常紧张了！成败在此一举了！（反正吃瓜群众看谁被惩罚都不错嘿嘿~",
+            "isDayStart": false
+        },
+        "E2_156": {
+            "contents": {
+                "ZH_CN": "嗯！我知道！"
+            },
+            "inputTime": 1310,
+            "id": "E2_156",
+            "nextid": "E2_157",
+            "nextMessageDelayTime": 1310,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_157": {
+            "contents": {
+                "ZH_CN": "不过我真的有忍不住了，看着她的表情"
+            },
+            "inputTime": 3464,
+            "id": "E2_157",
+            "nextid": "E2_158",
+            "nextMessageDelayTime": 3464,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_161": {
+            "contents": {
+                "ZH_CN": "报告！"
+            },
+            "inputTime": 892,
+            "id": "E2_161",
+            "nextid": "E2_162",
+            "nextMessageDelayTime": 892,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_162": {
+            "contents": {
+                "ZH_CN": "我！"
+            },
+            "inputTime": 1178,
+            "id": "E2_162",
+            "nextid": "E2_163",
+            "nextMessageDelayTime": 1178,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_160": {
+            "contents": {
+                "ZH_CN": "用户已上线"
+            },
+            "id": "E2_160",
+            "nextid": "E2_161",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": false
+        },
+        "E2_165": {
+            "contents": {
+                "ZH_CN": "hhhhhhhhhh"
+            },
+            "inputTime": 2535,
+            "id": "E2_165",
+            "nextid": "E2_166",
+            "nextMessageDelayTime": 2535,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_166": {
+            "contents": {
+                "ZH_CN": "我要疯了！！！！"
+            },
+            "inputTime": 2045,
+            "id": "E2_166",
+            "nextid": "E2_167",
+            "nextMessageDelayTime": 2045,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_163": {
+            "contents": {
+                "ZH_CN": "赢！"
+            },
+            "inputTime": 923,
+            "id": "E2_163",
+            "nextid": "E2_164",
+            "nextMessageDelayTime": 923,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_164": {
+            "contents": {
+                "ZH_CN": "了！"
+            },
+            "inputTime": 812,
+            "id": "E2_164",
+            "nextid": "E2_165",
+            "nextMessageDelayTime": 812,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_147": {
+            "contents": {
+                "ZH_CN": "你说呢？"
+            },
+            "inputTime": 1467,
+            "id": "E2_147",
+            "nextid": "E2_choicee_29",
+            "nextMessageDelayTime": 1467,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_148": {
+            "contents": {
+                "ZH_CN": "嗯！就这么办！"
+            },
+            "inputTime": 1530,
+            "id": "E2_148",
+            "nextid": "E2_149",
+            "nextMessageDelayTime": 1530,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_145": {
+            "contents": {
+                "ZH_CN": "让大家都改换出牌，把小艾姐压住"
+            },
+            "inputTime": 3248,
+            "id": "E2_145",
+            "nextid": "E2_146",
+            "nextMessageDelayTime": 3248,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_146": {
+            "contents": {
+                "ZH_CN": "毕竟我们大家牌都比较多，多出几张没关系，要是走到小艾姐的轨道上就比较麻烦了"
+            },
+            "inputTime": 8039,
+            "id": "E2_146",
+            "nextid": "E2_147",
+            "nextMessageDelayTime": 8039,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_149": {
+            "contents": {
+                "ZH_CN": "用户已下线"
+            },
+            "id": "E2_149",
+            "nextid": "E2_150",
+            "nextMessageDelayTime": 60000,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "daily": "哇哦！局势大逆转，看来小艾姐要被围攻了~反正看小艾姐被惩罚穿那种裙子我也是非常乐意的(¯﹃¯)",
+            "isDayStart": false
+        },
+        "E2_150": {
+            "contents": {
+                "ZH_CN": "用户已上线"
+            },
+            "id": "E2_150",
+            "nextid": "E2_151",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": false
+        },
+        "E2_151": {
+            "contents": {
+                "ZH_CN": "哈哈哈哈"
+            },
+            "inputTime": 814,
+            "id": "E2_151",
+            "nextid": "E2_152",
+            "nextMessageDelayTime": 814,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_154": {
+            "contents": {
+                "ZH_CN": "哈哈哈哈哈她的眼神不太对了"
+            },
+            "inputTime": 2947,
+            "id": "E2_154",
+            "nextid": "E2_155",
+            "nextMessageDelayTime": 2947,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_155": {
+            "contents": {
+                "ZH_CN": "是不是我要赢了啊"
+            },
+            "inputTime": 2378,
+            "id": "E2_155",
+            "nextid": "E2_choicee_30",
+            "nextMessageDelayTime": 2378,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_152": {
+            "contents": {
+                "ZH_CN": "看来是有效的！"
+            },
+            "inputTime": 1469,
+            "id": "E2_152",
+            "nextid": "E2_153",
+            "nextMessageDelayTime": 1469,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_153": {
+            "contents": {
+                "ZH_CN": "我们都出了好几轮了，小艾姐还憋着呢"
+            },
+            "inputTime": 4154,
+            "id": "E2_153",
+            "nextid": "E2_154",
+            "nextMessageDelayTime": 4154,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_219": {
+            "contents": {
+                "ZH_CN": "游戏结束，进入尾声"
+            },
+            "id": "E2_219",
+            "nextid": "E2_220",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "scence": "结局2",
+            "type": "GAME_HE",
+            "isDayStart": false
+        },
+        "E2_213": {
+            "contents": {
+                "ZH_CN": "就是输了，太可惜了，还被强迫发动态..."
+            },
+            "inputTime": 4748,
+            "id": "E2_213",
+            "nextid": "E2_214",
+            "nextMessageDelayTime": 4748,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_214": {
+            "contents": {
+                "ZH_CN": "哎，今天玩得真开心，不知不觉一天就结束了呢"
+            },
+            "inputTime": 4720,
+            "id": "E2_214",
+            "nextid": "E2_215",
+            "nextMessageDelayTime": 4720,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_211": {
+            "contents": {
+                "ZH_CN": "好啦，也不是怪你"
+            },
+            "inputTime": 1956,
+            "id": "E2_211",
+            "nextid": "E2_212",
+            "nextMessageDelayTime": 1956,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_212": {
+            "contents": {
+                "ZH_CN": "跟你闹着玩呢，其实我觉得这个小裙子还挺好看"
+            },
+            "inputTime": 4314,
+            "id": "E2_212",
+            "nextid": "E2_213",
+            "nextMessageDelayTime": 4314,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_217": {
+            "contents": {
+                "ZH_CN": "你要不要一起去啊？"
+            },
+            "inputTime": 1899,
+            "id": "E2_217",
+            "nextid": "E2_choicee_36",
+            "nextMessageDelayTime": 1899,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_218": {
+            "contents": {
+                "ZH_CN": "游戏结束，重新开始"
+            },
+            "id": "E2_218",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "scence": "结局1",
+            "type": "GAME_BE",
+            "isDayStart": false
+        },
+        "E2_215": {
+            "contents": {
+                "ZH_CN": "我这边也要回家啦，有机会下次再聊啦"
+            },
+            "inputTime": 3666,
+            "id": "E2_215",
+            "nextid": "E2_216",
+            "nextMessageDelayTime": 3666,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_216": {
+            "contents": {
+                "ZH_CN": "小艾姐姐还说下次带我去海洋馆玩，想想都很期待呢"
+            },
+            "inputTime": 4768,
+            "id": "E2_216",
+            "nextid": "E2_217",
+            "nextMessageDelayTime": 4768,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "跟两个小姐姐一起去海洋馆岂不是美滋滋？迫不及待了，别等下次了，我们现在就去好吗？",
+            "isDayStart": false
+        },
+        "E2_220": {
+            "contents": {
+                "ZH_CN": "More…接受来自异次元的不明通讯，和Miko酱一起探险，下一次还会有什么样的惊险事件？请继续关注《异次元通讯》！"
+            },
+            "id": "E2_220",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "scence": "尾声",
+            "type": "GAME_END",
+            "isDayStart": false
+        },
+        "E2_100": {
+            "contents": {
+                "ZH_CN": "好像有道理"
+            },
+            "inputTime": 1534,
+            "id": "E2_100",
+            "nextid": "E2_101",
+            "nextMessageDelayTime": 1534,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_208": {
+            "contents": {
+                "ZH_CN": "听了你的建议，就这样了！"
+            },
+            "inputTime": 2696,
+            "id": "E2_208",
+            "nextid": "E2_209",
+            "nextMessageDelayTime": 2696,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_209": {
+            "contents": {
+                "ZH_CN": "输了！"
+            },
+            "inputTime": 1383,
+            "id": "E2_209",
+            "nextid": "E2_choicee_35",
+            "nextMessageDelayTime": 1383,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_202": {
+            "contents": {
+                "ZH_CN": "毕竟一直都是你在给我出主意，相信你！"
+            },
+            "inputTime": 3973,
+            "id": "E2_202",
+            "nextid": "E2_203",
+            "nextMessageDelayTime": 3973,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_203": {
+            "contents": {
+                "ZH_CN": "那就按照你说的去做！相信你！"
+            },
+            "inputTime": 3389,
+            "id": "E2_203",
+            "nextid": "E2_204",
+            "nextMessageDelayTime": 3389,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_200": {
+            "contents": {
+                "ZH_CN": "难道因为我太笨了？"
+            },
+            "inputTime": 1955,
+            "id": "E2_200",
+            "nextid": "E2_201",
+            "nextMessageDelayTime": 1955,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_201": {
+            "contents": {
+                "ZH_CN": "不过，我还是听你的吧"
+            },
+            "inputTime": 2770,
+            "id": "E2_201",
+            "nextid": "E2_202",
+            "nextMessageDelayTime": 2770,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_206": {
+            "photoid": "E2-03",
+            "contents": {
+                "ZH_CN": "[E2-03]\u0026她们都在笑我...无语了...某些人总该为此负责的！"
+            },
+            "id": "E2_206",
+            "nextid": "E2_207",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_TIMELINE",
+            "isDayStart": false
+        },
+        "E2_207": {
+            "contents": {
+                "ZH_CN": "你说！你该怎么做！"
+            },
+            "inputTime": 2225,
+            "id": "E2_207",
+            "nextid": "E2_208",
+            "nextMessageDelayTime": 2225,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_204": {
+            "contents": {
+                "ZH_CN": "用户已下线"
+            },
+            "id": "E2_204",
+            "nextid": "E2_205",
+            "nextMessageDelayTime": 300000,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "daily": "其实我乱说的，我也是有好东西藏不住的人，有好牌肯定都迫不及待拿出手了！",
+            "isDayStart": false
+        },
+        "E2_205": {
+            "contents": {
+                "ZH_CN": "用户已上线"
+            },
+            "id": "E2_205",
+            "nextid": "E2_206",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": false
+        },
+        "E2_210": {
+            "contents": {
+                "ZH_CN": "哼哼~"
+            },
+            "inputTime": 654,
+            "id": "E2_210",
+            "nextid": "E2_211",
+            "nextMessageDelayTime": 654,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_114": {
+            "contents": {
+                "ZH_CN": "真是的..."
+            },
+            "inputTime": 1757,
+            "id": "E2_114",
+            "nextid": "E2_115",
+            "nextMessageDelayTime": 1757,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_115": {
+            "contents": {
+                "ZH_CN": "啊...小艾姐姐放弃跟牌了"
+            },
+            "inputTime": 3217,
+            "id": "E2_115",
+            "nextid": "E2_116",
+            "nextMessageDelayTime": 3217,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_112": {
+            "contents": {
+                "ZH_CN": "我跟你讲，我虽然有时候说话很冲动，但实际上我很冷静哦"
+            },
+            "inputTime": 5440,
+            "id": "E2_112",
+            "nextid": "E2_113",
+            "nextMessageDelayTime": 5440,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_113": {
+            "contents": {
+                "ZH_CN": "不知道为什么给你们造成这样的印象..."
+            },
+            "inputTime": 4543,
+            "id": "E2_113",
+            "nextid": "E2_114",
+            "nextMessageDelayTime": 4543,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_118": {
+            "contents": {
+                "ZH_CN": "藏牌的话，目的是什么呢？"
+            },
+            "inputTime": 2575,
+            "id": "E2_118",
+            "nextid": "E2_119",
+            "nextMessageDelayTime": 2575,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_119": {
+            "contents": {
+                "ZH_CN": "难道她要保留功能牌，来为以后自己的色牌铺路？"
+            },
+            "inputTime": 4918,
+            "id": "E2_119",
+            "nextid": "E2_120",
+            "nextMessageDelayTime": 4918,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "dictionary": "E2_3",
+            "isDayStart": false
+        },
+        "E2_116": {
+            "contents": {
+                "ZH_CN": "她之前打得很猛的哦，好像手里牌源源不断的样子"
+            },
+            "inputTime": 4728,
+            "id": "E2_116",
+            "nextid": "E2_117",
+            "nextMessageDelayTime": 4728,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_117": {
+            "contents": {
+                "ZH_CN": "现在怎么不跟了？"
+            },
+            "inputTime": 1965,
+            "id": "E2_117",
+            "nextid": "E2_choicee_23",
+            "nextMessageDelayTime": 1965,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_121": {
+            "contents": {
+                "ZH_CN": "我觉得这个可能性比较小"
+            },
+            "inputTime": 2851,
+            "id": "E2_121",
+            "nextid": "E2_choicee_24",
+            "nextMessageDelayTime": 2851,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "小艾姐这么聪明，藏一手好牌也不是没可能的啊，哪像Miko那样只会猴急地正面刚\u003d \u003d",
+            "isDayStart": false
+        },
+        "E2_122": {
+            "contents": {
+                "ZH_CN": "嗯，我也觉得可能性比较大"
+            },
+            "inputTime": 2977,
+            "id": "E2_122",
+            "nextid": "E2_123",
+            "nextMessageDelayTime": 2977,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "打牌还要讲究一个心理学，如果对方不出牌，那就说明——她没牌了。本人，耿直，打钱！",
+            "isDayStart": false
+        },
+        "E2_120": {
+            "contents": {
+                "ZH_CN": "嗯，我想想"
+            },
+            "inputTime": 1421,
+            "id": "E2_120",
+            "nextid": "E2_121",
+            "nextMessageDelayTime": 1421,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_109": {
+            "contents": {
+                "ZH_CN": "这是策略好吗！"
+            },
+            "inputTime": 1510,
+            "id": "E2_109",
+            "nextid": "E2_110",
+            "nextMessageDelayTime": 1510,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_93": {
+            "contents": {
+                "ZH_CN": "我现在正在紧要关头！"
+            },
+            "inputTime": 2315,
+            "id": "E2_93",
+            "nextid": "E2_94",
+            "nextMessageDelayTime": 2315,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_103": {
+            "contents": {
+                "ZH_CN": "让这些牌发挥出最大的价值，是这个意思吧？"
+            },
+            "inputTime": 4708,
+            "id": "E2_103",
+            "nextid": "E2_choicee_20",
+            "nextMessageDelayTime": 4708,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "稳住，我们能赢！最好吃的一口肉还得留到最后吃呢，好牌当然也要留着后面再走。",
+            "isDayStart": false
+        },
+        "E2_94": {
+            "contents": {
+                "ZH_CN": "uno我玩过几把，可是不太想得清楚，记牌就更记不住"
+            },
+            "inputTime": 5667,
+            "id": "E2_94",
+            "nextid": "E2_95",
+            "nextMessageDelayTime": 5667,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_104": {
+            "contents": {
+                "ZH_CN": "哼~我聪明吧！"
+            },
+            "inputTime": 1737,
+            "id": "E2_104",
+            "nextid": "E2_105",
+            "nextMessageDelayTime": 1737,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_95": {
+            "contents": {
+                "ZH_CN": "小艾姐在我上家，老是压我"
+            },
+            "inputTime": 2524,
+            "id": "E2_95",
+            "nextid": "E2_96",
+            "nextMessageDelayTime": 2524,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_101": {
+            "contents": {
+                "ZH_CN": "就是说拿到好牌，要先规划以后的出牌策略"
+            },
+            "inputTime": 4456,
+            "id": "E2_101",
+            "nextid": "E2_102",
+            "nextMessageDelayTime": 4456,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_96": {
+            "contents": {
+                "ZH_CN": "我觉得我这把牌还不错，有两张万能牌呢，是不是要先打出去"
+            },
+            "inputTime": 5813,
+            "id": "E2_96",
+            "nextid": "E2_97",
+            "nextMessageDelayTime": 5813,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "dictionary": "E2_2",
+            "isDayStart": false
+        },
+        "E2_102": {
+            "contents": {
+                "ZH_CN": "把烂牌先走掉，把好牌留到最关键的时候"
+            },
+            "inputTime": 3843,
+            "id": "E2_102",
+            "nextid": "E2_103",
+            "nextMessageDelayTime": 3843,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_107": {
+            "contents": {
+                "ZH_CN": "拿到弱牌，反正没有多大变化了，这个我是懂的"
+            },
+            "inputTime": 4558,
+            "id": "E2_107",
+            "nextid": "E2_108",
+            "nextMessageDelayTime": 4558,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_90": {
+            "contents": {
+                "ZH_CN": "你去死啦！"
+            },
+            "inputTime": 1698,
+            "id": "E2_90",
+            "nextid": "E2_91",
+            "nextMessageDelayTime": 1698,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_108": {
+            "contents": {
+                "ZH_CN": "那就只好装死耍赖，看机会能不能翻盘喽"
+            },
+            "inputTime": 4034,
+            "id": "E2_108",
+            "nextid": "E2_choicee_22",
+            "nextMessageDelayTime": 4034,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_91": {
+            "contents": {
+                "ZH_CN": "赶紧帮我！"
+            },
+            "inputTime": 1556,
+            "id": "E2_91",
+            "nextid": "E2_92",
+            "nextMessageDelayTime": 1556,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "这个穿dirndl裙的惩罚有意思，玩游戏第一次这么想输，嘻嘻嘻~",
+            "isDayStart": false
+        },
+        "E2_105": {
+            "contents": {
+                "ZH_CN": "那如果拿到弱牌呢？"
+            },
+            "inputTime": 1884,
+            "id": "E2_105",
+            "nextid": "E2_choicee_21",
+            "nextMessageDelayTime": 1884,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_92": {
+            "contents": {
+                "ZH_CN": "别废话了！"
+            },
+            "inputTime": 1126,
+            "id": "E2_92",
+            "nextid": "E2_93",
+            "nextMessageDelayTime": 1126,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_106": {
+            "contents": {
+                "ZH_CN": "嗯"
+            },
+            "inputTime": 605,
+            "id": "E2_106",
+            "nextid": "E2_107",
+            "nextMessageDelayTime": 605,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_97": {
+            "contents": {
+                "ZH_CN": "我听他们说，占先手什么的"
+            },
+            "inputTime": 2815,
+            "id": "E2_97",
+            "nextid": "E2_choicee_18",
+            "nextMessageDelayTime": 2815,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_110": {
+            "contents": {
+                "ZH_CN": "傻傻向前冲那才是笨！"
+            },
+            "inputTime": 2329,
+            "id": "E2_110",
+            "nextid": "E2_111",
+            "nextMessageDelayTime": 2329,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_98": {
+            "contents": {
+                "ZH_CN": "为什么啊？"
+            },
+            "inputTime": 1171,
+            "id": "E2_98",
+            "nextid": "E2_99",
+            "nextMessageDelayTime": 1171,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_111": {
+            "contents": {
+                "ZH_CN": "喂！你是不是觉得我是这样的啊？！"
+            },
+            "inputTime": 3760,
+            "id": "E2_111",
+            "nextid": "E2_112",
+            "nextMessageDelayTime": 3760,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E2_99": {
+            "contents": {
+                "ZH_CN": "我有了好牌就忍不住..."
+            },
+            "inputTime": 3151,
+            "id": "E2_99",
+            "nextid": "E2_choicee_19",
+            "nextMessageDelayTime": 3151,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        }
+    },
+    "daysIndex": {
+        "D1": "E2_1"
+    },
+    "dds": [
+        {
+            "dicId": "E2_1",
+            "messageId": "E2_49",
+            "title": "uno",
+            "content": "一种牌类游戏，于1971年由Merle Robbins发明，现由游戏公司Mattel生产。适合多人聚会共玩，由于对抗激烈也有“友谊终结器”的称号。",
+            "status": 0
+        },
+        {
+            "dicId": "E2_2",
+            "messageId": "E2_96",
+            "title": "万能牌",
+            "content": "Uno牌戏中的一种很厉害的功能牌，分为Wild（变色）和Wild Draw 4（摸四张）两种。",
+            "status": 0
+        },
+        {
+            "dicId": "E2_3",
+            "messageId": "E2_119",
+            "title": "色牌",
+            "content": "普通牌分为四种颜色，中文统称为色牌，英文名没有统称，分别为Blue、Green、Red、Yellow，下家出牌只能跟随上家的颜色。",
+            "status": 0
+        },
+        {
+            "dicId": "E2_4",
+            "messageId": "E2_123",
+            "title": "变色牌",
+            "content": "功能牌的一种，可以改变下家出牌颜色，英文名为Wild card。",
+            "status": 0
+        },
+        {
+            "dicId": "E2_5",
+            "messageId": "E2_139",
+            "title": "喊uno",
+            "content": "当手上牌仅剩两张时，玩家必须喊uno以示提醒。如果没喊uno就打牌，被人发现要惩罚抽两张牌。",
+            "status": 0
+        },
+        {
+            "dicId": "E2_6",
+            "messageId": "E2_181",
+            "title": "debuff",
+            "content": "游戏术语，减益效果，暂时性地降低人物的属性、技能、特性等。",
+            "status": 0
+        }
+    ]
+}

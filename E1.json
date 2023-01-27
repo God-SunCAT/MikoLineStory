@@ -1,0 +1,4110 @@
+//本剧本由DLine项目组提供 - 提取自异次元通讯5官方版本
+//剧本包含 主剧情 词典 图鉴 日志
+//不得用于商业用途，以及调用本剧本必须标注来源
+{
+    "version": 1,
+    "storyid": "1.1",
+    "storyData": {
+        "E1_175": {
+            "contents": {
+                "ZH_CN": "小苏打也混进去拌匀了，这个面糊看上去就是我的手笔！"
+            },
+            "inputTime": 5007,
+            "id": "E1_175",
+            "nextid": "E1_176",
+            "nextMessageDelayTime": 5007,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_176": {
+            "contents": {
+                "ZH_CN": "把面糊倒进模具，震动它..."
+            },
+            "inputTime": 3299,
+            "id": "E1_176",
+            "nextid": "E1_177",
+            "nextMessageDelayTime": 3299,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_177": {
+            "contents": {
+                "ZH_CN": "震动？哦，明白了，是除去气泡..."
+            },
+            "inputTime": 3573,
+            "id": "E1_177",
+            "nextid": "E1_178",
+            "nextMessageDelayTime": 3573,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_178": {
+            "contents": {
+                "ZH_CN": "然后要烤了..."
+            },
+            "inputTime": 1995,
+            "id": "E1_178",
+            "nextid": "E1_179",
+            "nextMessageDelayTime": 1995,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_171": {
+            "contents": {
+                "ZH_CN": "可不就是“我们”刚才做的那个嘛！"
+            },
+            "inputTime": 3656,
+            "id": "E1_171",
+            "nextid": "E1_173",
+            "nextMessageDelayTime": 3656,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "我擦！这真的是我和Miko一起做的蛋糕啊！",
+            "isDayStart": false
+        },
+        "E1_172": {
+            "contents": {
+                "ZH_CN": "厉害吧！"
+            },
+            "inputTime": 1498,
+            "id": "E1_172",
+            "nextid": "E1_173",
+            "nextMessageDelayTime": 1498,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "果然是有了我，Miko就不一样了！这是我和Miko一起做的蛋糕啊！",
+            "isDayStart": false
+        },
+        "E1_173": {
+            "contents": {
+                "ZH_CN": "好啦，这么好的蛋糕，这次如果你再吃不上，那就不要怪我喽"
+            },
+            "inputTime": 5675,
+            "id": "E1_173",
+            "nextid": "E1_choicee_29",
+            "nextMessageDelayTime": 5675,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_174": {
+            "contents": {
+                "ZH_CN": "搞定啦"
+            },
+            "inputTime": 801,
+            "id": "E1_174",
+            "nextid": "E1_175",
+            "nextMessageDelayTime": 801,
+            "day": "D1",
+            "scence": "家-坏结局",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_30": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "你去打游戏吧，我也要去打游戏了"
+                    },
+                    "nextid": "E1_192"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "我们聊天吧"
+                    },
+                    "nextid": "E1_195"
+                }
+            ],
+            "id": "E1_choicee_30",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_170": {
+            "contents": {
+                "ZH_CN": "Miko出品！"
+            },
+            "inputTime": 1942,
+            "id": "E1_170",
+            "nextid": "E1_choicee_28",
+            "nextMessageDelayTime": 1942,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_33": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "别伤心"
+                    },
+                    "nextid": "E1_220"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "对不起，我不该问这些"
+                    },
+                    "nextid": "E1_220"
+                }
+            ],
+            "id": "E1_choicee_33",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_34": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "想得太远了..."
+                    },
+                    "nextid": "E1_235"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "你爸是什么样的人啊"
+                    },
+                    "nextid": "E1_236"
+                }
+            ],
+            "id": "E1_choicee_34",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_31": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "社交恐惧症？"
+                    },
+                    "nextid": "E1_204"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "你是不是遇到什么事情啊"
+                    },
+                    "nextid": "E1_208"
+                }
+            ],
+            "id": "E1_choicee_31",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_32": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "你母亲呢？"
+                    },
+                    "nextid": "E1_216"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "你还是应该多交些朋友"
+                    },
+                    "nextid": "E1_210"
+                }
+            ],
+            "id": "E1_choicee_32",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_37": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "怎么又怪我啊..."
+                    },
+                    "nextid": "E1_265"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "好好好，都怪我"
+                    },
+                    "nextid": "E1_265"
+                }
+            ],
+            "id": "E1_choicee_37",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_38": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "这次我真的要来了！"
+                    },
+                    "nextid": "E1_272"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "马上就到！你等着！"
+                    },
+                    "nextid": "E1_272"
+                }
+            ],
+            "id": "E1_choicee_38",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_35": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "哄女儿讲恐怖故事？"
+                    },
+                    "nextid": "E1_251"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "这种老爸也是..."
+                    },
+                    "nextid": "E1_251"
+                }
+            ],
+            "id": "E1_choicee_35",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_36": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "感觉失败了呢"
+                    },
+                    "nextid": "E1_263"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "这就尴尬了..."
+                    },
+                    "nextid": "E1_263"
+                }
+            ],
+            "id": "E1_choicee_36",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_168": {
+            "photoid": "E1-02",
+            "contents": {
+                "ZH_CN": "[E1-02]\u0026哈哈哈哈我是天才！红丝绒蛋糕出炉！"
+            },
+            "id": "E1_168",
+            "nextid": "E1_169",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_TIMELINE",
+            "isDayStart": false
+        },
+        "E1_169": {
+            "contents": {
+                "ZH_CN": "我就问你怎么样！！↑↑↑↑"
+            },
+            "inputTime": 2716,
+            "id": "E1_169",
+            "nextid": "E1_170",
+            "nextMessageDelayTime": 2716,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_186": {
+            "contents": {
+                "ZH_CN": "用户已下线"
+            },
+            "id": "E1_186",
+            "nextid": "E1_187",
+            "nextMessageDelayTime": 300000,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "daily": "看电视上那些烘焙师打发奶油什么的好像挺讲究的，不知道Miko行不行...",
+            "isDayStart": false
+        },
+        "E1_187": {
+            "contents": {
+                "ZH_CN": "用户已上线"
+            },
+            "id": "E1_187",
+            "nextid": "E1_188",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": false
+        },
+        "E1_188": {
+            "contents": {
+                "ZH_CN": "恩恩，感觉已经完成得很好了"
+            },
+            "inputTime": 2846,
+            "id": "E1_188",
+            "nextid": "E1_189",
+            "nextMessageDelayTime": 2846,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_189": {
+            "contents": {
+                "ZH_CN": "乳霜也搞定啦，现在就是等蛋糕烤好，然后再裱花了"
+            },
+            "inputTime": 4616,
+            "id": "E1_189",
+            "nextid": "E1_190",
+            "nextMessageDelayTime": 4616,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_182": {
+            "contents": {
+                "ZH_CN": "用户已下线"
+            },
+            "id": "E1_182",
+            "nextid": "E1_187",
+            "nextMessageDelayTime": 300000,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "daily": "烘烤温度？烘烤时间？真是的，我怎么会知道啊！应该不会出问题吧？",
+            "isDayStart": false
+        },
+        "E1_183": {
+            "contents": {
+                "ZH_CN": "是吧！"
+            },
+            "inputTime": 1024,
+            "id": "E1_183",
+            "nextid": "E1_184",
+            "nextMessageDelayTime": 1024,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_184": {
+            "contents": {
+                "ZH_CN": "我的手艺嘛！"
+            },
+            "inputTime": 1936,
+            "id": "E1_184",
+            "nextid": "E1_185",
+            "nextMessageDelayTime": 1936,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_185": {
+            "contents": {
+                "ZH_CN": "这是基本功啦"
+            },
+            "inputTime": 1952,
+            "id": "E1_185",
+            "nextid": "E1_186",
+            "nextMessageDelayTime": 1952,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_180": {
+            "contents": {
+                "ZH_CN": "好！幸亏你知道！想不到你也会烤蛋糕么"
+            },
+            "inputTime": 4313,
+            "id": "E1_180",
+            "nextid": "E1_181",
+            "nextMessageDelayTime": 4313,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_181": {
+            "contents": {
+                "ZH_CN": "嗯，那现在开始烤了，放进去，调好时间..."
+            },
+            "inputTime": 4973,
+            "id": "E1_181",
+            "nextid": "E1_182",
+            "nextMessageDelayTime": 4973,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_22": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "你母亲呢？"
+                    },
+                    "nextid": "E1_125"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "你还是应该多交些朋友"
+                    },
+                    "nextid": "E1_117"
+                }
+            ],
+            "id": "E1_choicee_22",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_23": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "其实你现在话还是挺多的"
+                    },
+                    "nextid": "E1_120"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "你现在也挺爱说话的"
+                    },
+                    "nextid": "E1_120"
+                }
+            ],
+            "id": "E1_choicee_23",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_20": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "你去打游戏吧，我也要去打游戏了"
+                    },
+                    "nextid": "E1_99"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "我们聊天吧"
+                    },
+                    "nextid": "E1_102"
+                }
+            ],
+            "id": "E1_choicee_20",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_21": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "你是不是遇到什么事情啊"
+                    },
+                    "nextid": "E1_115"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "社交恐惧症？"
+                    },
+                    "nextid": "E1_111"
+                }
+            ],
+            "id": "E1_choicee_21",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_26": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "想得太远了..."
+                    },
+                    "nextid": "E1_144"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "你爸是什么样的人啊"
+                    },
+                    "nextid": "E1_145"
+                }
+            ],
+            "id": "E1_choicee_26",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_27": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "哄女儿讲恐怖故事？"
+                    },
+                    "nextid": "E1_158"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "这种老爸也是..."
+                    },
+                    "nextid": "E1_158"
+                }
+            ],
+            "id": "E1_choicee_27",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_24": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "抱歉，我不是有意提起这个的"
+                    },
+                    "nextid": "E1_129"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "对不起，我说错话了"
+                    },
+                    "nextid": "E1_129"
+                }
+            ],
+            "id": "E1_choicee_24",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_25": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "别伤心"
+                    },
+                    "nextid": "E1_129"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "对不起，我不该问这些"
+                    },
+                    "nextid": "E1_129"
+                }
+            ],
+            "id": "E1_choicee_25",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_28": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "我擦，这真是刚才我们做的那个吗？！"
+                    },
+                    "nextid": "E1_171"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "太赞了！"
+                    },
+                    "nextid": "E1_172"
+                }
+            ],
+            "id": "E1_choicee_28",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_29": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "这次我真的要来了！"
+                    },
+                    "nextid": "E1_272"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "马上就到！你等着！"
+                    },
+                    "nextid": "E1_272"
+                }
+            ],
+            "id": "E1_choicee_29",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_179": {
+            "contents": {
+                "ZH_CN": "用户已下线"
+            },
+            "id": "E1_179",
+            "nextid": "E1_187",
+            "nextMessageDelayTime": 300000,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "daily": "是不是忘了放什么东西？真要命，我也不会烤蛋糕啊！",
+            "isDayStart": false
+        },
+        "E1_197": {
+            "contents": {
+                "ZH_CN": "在学校的时候也很少跟人说话，总觉得很烦啊"
+            },
+            "inputTime": 4404,
+            "id": "E1_197",
+            "nextid": "E1_198",
+            "nextMessageDelayTime": 4404,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_198": {
+            "contents": {
+                "ZH_CN": "不对，也不是烦，就是觉得要费心去说别人能理解的话，又要担心自己说的别人会不会感兴趣，很累"
+            },
+            "inputTime": 9513,
+            "id": "E1_198",
+            "nextid": "E1_199",
+            "nextMessageDelayTime": 9513,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_199": {
+            "contents": {
+                "ZH_CN": "后来也就不怎么说话了，有什么事情就放在心里好了，其实又真有什么事情值得分享呢"
+            },
+            "inputTime": 7741,
+            "id": "E1_199",
+            "nextid": "E1_200",
+            "nextMessageDelayTime": 7741,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_193": {
+            "contents": {
+                "ZH_CN": "那我去了..."
+            },
+            "inputTime": 2170,
+            "id": "E1_193",
+            "nextid": "E1_194",
+            "nextMessageDelayTime": 2170,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_194": {
+            "contents": {
+                "ZH_CN": "用户已下线"
+            },
+            "id": "E1_194",
+            "nextid": "E1_260",
+            "nextMessageDelayTime": 1800000,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "daily": "我先去玩会游戏，等会烤好了再来和Miko聊天，没什么不对吧？",
+            "isDayStart": false
+        },
+        "E1_195": {
+            "contents": {
+                "ZH_CN": "好啊好啊！"
+            },
+            "inputTime": 1108,
+            "id": "E1_195",
+            "nextid": "E1_196",
+            "nextMessageDelayTime": 1108,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_196": {
+            "contents": {
+                "ZH_CN": "其实说起来，我很少跟人聊天哦"
+            },
+            "inputTime": 3484,
+            "id": "E1_196",
+            "nextid": "E1_197",
+            "nextMessageDelayTime": 3484,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_92": {
+            "contents": {
+                "ZH_CN": "这是基本功啦"
+            },
+            "inputTime": 1468,
+            "id": "E1_92",
+            "nextid": "E1_93",
+            "nextMessageDelayTime": 1468,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_93": {
+            "contents": {
+                "ZH_CN": "用户已下线"
+            },
+            "id": "E1_93",
+            "nextid": "E1_94",
+            "nextMessageDelayTime": 300000,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "daily": "制作工艺说起来倒是头头是道，为什么我会突然有点期待了？",
+            "isDayStart": false
+        },
+        "E1_190": {
+            "contents": {
+                "ZH_CN": "这段时间干点什么好呢"
+            },
+            "inputTime": 2035,
+            "id": "E1_190",
+            "nextid": "E1_191",
+            "nextMessageDelayTime": 2035,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_94": {
+            "contents": {
+                "ZH_CN": "用户已上线"
+            },
+            "id": "E1_94",
+            "nextid": "E1_95",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": false
+        },
+        "E1_191": {
+            "contents": {
+                "ZH_CN": "要不我去打游戏？还是陪你聊一会天？"
+            },
+            "inputTime": 3898,
+            "id": "E1_191",
+            "nextid": "E1_choicee_30",
+            "nextMessageDelayTime": 3898,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_95": {
+            "contents": {
+                "ZH_CN": "恩恩，感觉已经完成得很好了"
+            },
+            "inputTime": 2787,
+            "id": "E1_95",
+            "nextid": "E1_96",
+            "nextMessageDelayTime": 2787,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_192": {
+            "contents": {
+                "ZH_CN": "好吧..."
+            },
+            "inputTime": 1482,
+            "id": "E1_192",
+            "nextid": "E1_193",
+            "nextMessageDelayTime": 1482,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_90": {
+            "contents": {
+                "ZH_CN": "对了，要隔水融化，这个我还是没有忘的"
+            },
+            "inputTime": 3896,
+            "id": "E1_90",
+            "nextid": "E1_91",
+            "nextMessageDelayTime": 3896,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_91": {
+            "contents": {
+                "ZH_CN": "而且打发时间和速度很重要，不然要么不成型要么过头了"
+            },
+            "inputTime": 5275,
+            "id": "E1_91",
+            "nextid": "E1_92",
+            "nextMessageDelayTime": 5275,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_96": {
+            "contents": {
+                "ZH_CN": "乳霜也搞定啦，现在就是等蛋糕烤好，然后再裱花了"
+            },
+            "inputTime": 4836,
+            "id": "E1_96",
+            "nextid": "E1_97",
+            "nextMessageDelayTime": 4836,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_97": {
+            "contents": {
+                "ZH_CN": "这段时间干点什么好呢"
+            },
+            "inputTime": 2636,
+            "id": "E1_97",
+            "nextid": "E1_98",
+            "nextMessageDelayTime": 2636,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_98": {
+            "contents": {
+                "ZH_CN": "要不我去打游戏？还是陪你聊一会天？"
+            },
+            "inputTime": 3461,
+            "id": "E1_98",
+            "nextid": "E1_choicee_20",
+            "nextMessageDelayTime": 3461,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_99": {
+            "contents": {
+                "ZH_CN": "好吧..."
+            },
+            "inputTime": 1551,
+            "id": "E1_99",
+            "nextid": "E1_100",
+            "nextMessageDelayTime": 1551,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_81": {
+            "contents": {
+                "ZH_CN": "然后要烤了..."
+            },
+            "inputTime": 2077,
+            "id": "E1_81",
+            "nextid": "E1_82",
+            "nextMessageDelayTime": 2077,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_82": {
+            "contents": {
+                "ZH_CN": "嗯，170度，30分钟"
+            },
+            "inputTime": 2467,
+            "id": "E1_82",
+            "nextid": "E1_83",
+            "nextMessageDelayTime": 2467,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_83": {
+            "contents": {
+                "ZH_CN": "咦，不对，到底多少来的？我怎么又忘了"
+            },
+            "inputTime": 4163,
+            "id": "E1_83",
+            "nextid": "E1_84",
+            "nextMessageDelayTime": 4163,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_84": {
+            "contents": {
+                "ZH_CN": "220度，40分钟？"
+            },
+            "inputTime": 2015,
+            "id": "E1_84",
+            "nextid": "E1_choicee_18",
+            "nextMessageDelayTime": 2015,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "连烘烤温度都不记得，果然是转头就忘...（扶额",
+            "isDayStart": false
+        },
+        "E1_80": {
+            "contents": {
+                "ZH_CN": "震动？哦，明白了，是除去气泡..."
+            },
+            "inputTime": 3583,
+            "id": "E1_80",
+            "nextid": "E1_81",
+            "nextMessageDelayTime": 3583,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_89": {
+            "contents": {
+                "ZH_CN": "再拿黄油、酪乳，加糖粉、加淡奶油，再打发，没毛病吧？"
+            },
+            "inputTime": 5754,
+            "id": "E1_89",
+            "nextid": "E1_choicee_19",
+            "nextMessageDelayTime": 5754,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_85": {
+            "contents": {
+                "ZH_CN": "好！幸亏你知道！想不到你也会烤蛋糕么"
+            },
+            "inputTime": 4329,
+            "id": "E1_85",
+            "nextid": "E1_86",
+            "nextMessageDelayTime": 4329,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_86": {
+            "contents": {
+                "ZH_CN": "嗯，那现在开始烤了，放进去，调好时间"
+            },
+            "inputTime": 3670,
+            "id": "E1_86",
+            "nextid": "E1_87",
+            "nextMessageDelayTime": 3670,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_87": {
+            "contents": {
+                "ZH_CN": "唔...现在干什么呢"
+            },
+            "inputTime": 2760,
+            "id": "E1_87",
+            "nextid": "E1_88",
+            "nextMessageDelayTime": 2760,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_88": {
+            "contents": {
+                "ZH_CN": "现在来做奶酪乳霜，就是蛋糕上最好吃的部分哈哈哈哈哈"
+            },
+            "inputTime": 5413,
+            "id": "E1_88",
+            "nextid": "E1_89",
+            "nextMessageDelayTime": 5413,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_131": {
+            "contents": {
+                "ZH_CN": "之后的一段时间，我和爸爸闹得挺厉害，互相都看不顺眼，吵得很厉害"
+            },
+            "inputTime": 6795,
+            "id": "E1_131",
+            "nextid": "E1_132",
+            "nextMessageDelayTime": 6795,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_252": {
+            "contents": {
+                "ZH_CN": "他说是一个著名的哲学家写的小说"
+            },
+            "inputTime": 3255,
+            "id": "E1_252",
+            "nextid": "E1_253",
+            "nextMessageDelayTime": 3255,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_132": {
+            "contents": {
+                "ZH_CN": "现在想想，应该是我俩都找不到平复情绪的办法，却不由自主在互相伤害"
+            },
+            "inputTime": 6601,
+            "id": "E1_132",
+            "nextid": "E1_133",
+            "nextMessageDelayTime": 6601,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_253": {
+            "contents": {
+                "ZH_CN": "你说哲学家干点什么不好，写凶杀案小说？"
+            },
+            "inputTime": 4259,
+            "id": "E1_253",
+            "nextid": "E1_254",
+            "nextMessageDelayTime": 4259,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_133": {
+            "contents": {
+                "ZH_CN": "其实我这个人就是，你不能顺着我来，你越顺着我，我就觉得你讨厌"
+            },
+            "inputTime": 6798,
+            "id": "E1_133",
+            "nextid": "E1_134",
+            "nextMessageDelayTime": 6798,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_254": {
+            "contents": {
+                "ZH_CN": "真是的..."
+            },
+            "inputTime": 1883,
+            "id": "E1_254",
+            "nextid": "E1_255",
+            "nextMessageDelayTime": 1883,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_134": {
+            "contents": {
+                "ZH_CN": "你应该一针见血地指出我的毛病，我反而就服你（当然啦，你态度要好~~"
+            },
+            "inputTime": 6614,
+            "id": "E1_134",
+            "nextid": "E1_135",
+            "nextMessageDelayTime": 6614,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_255": {
+            "contents": {
+                "ZH_CN": "有时候觉得我爸也是搞笑..."
+            },
+            "inputTime": 3014,
+            "id": "E1_255",
+            "nextid": "E1_256",
+            "nextMessageDelayTime": 3014,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_250": {
+            "contents": {
+                "ZH_CN": "这种故事亏他也讲得出来哦"
+            },
+            "inputTime": 2663,
+            "id": "E1_250",
+            "nextid": "E1_choicee_35",
+            "nextMessageDelayTime": 2663,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "Miko老爸也是心大，Miko能活到现在也是奇迹...",
+            "isDayStart": false
+        },
+        "E1_130": {
+            "contents": {
+                "ZH_CN": "想想两年前的那个时刻，还是难熬"
+            },
+            "inputTime": 3066,
+            "id": "E1_130",
+            "nextid": "E1_131",
+            "nextMessageDelayTime": 3066,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_251": {
+            "contents": {
+                "ZH_CN": "是啊是啊"
+            },
+            "inputTime": 867,
+            "id": "E1_251",
+            "nextid": "E1_252",
+            "nextMessageDelayTime": 867,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_70": {
+            "contents": {
+                "ZH_CN": "我想想..."
+            },
+            "inputTime": 1775,
+            "id": "E1_70",
+            "nextid": "E1_71",
+            "nextMessageDelayTime": 1775,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_71": {
+            "contents": {
+                "ZH_CN": "好像是要分步骤搅拌呢"
+            },
+            "inputTime": 2041,
+            "id": "E1_71",
+            "nextid": "E1_72",
+            "nextMessageDelayTime": 2041,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_72": {
+            "contents": {
+                "ZH_CN": "先加三分之一粉类，再加三分之一酪乳拌匀..."
+            },
+            "inputTime": 4475,
+            "id": "E1_72",
+            "nextid": "E1_73",
+            "nextMessageDelayTime": 4475,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_73": {
+            "contents": {
+                "ZH_CN": "哎呀，差点忘了酪乳这个东西了"
+            },
+            "inputTime": 2991,
+            "id": "E1_73",
+            "nextid": "E1_74",
+            "nextMessageDelayTime": 2991,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_78": {
+            "contents": {
+                "ZH_CN": "小苏打也混进去拌匀了，这个面糊看上去就是我的手笔！"
+            },
+            "inputTime": 5196,
+            "id": "E1_78",
+            "nextid": "E1_79",
+            "nextMessageDelayTime": 5196,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_79": {
+            "contents": {
+                "ZH_CN": "把面糊倒进模具，震动它..."
+            },
+            "inputTime": 2856,
+            "id": "E1_79",
+            "nextid": "E1_80",
+            "nextMessageDelayTime": 2856,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_74": {
+            "contents": {
+                "ZH_CN": "好险"
+            },
+            "inputTime": 1006,
+            "id": "E1_74",
+            "nextid": "E1_75",
+            "nextMessageDelayTime": 1006,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_75": {
+            "contents": {
+                "ZH_CN": "用户已下线"
+            },
+            "id": "E1_75",
+            "nextid": "E1_76",
+            "nextMessageDelayTime": 300000,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "daily": "看起来好像挺认真的样子诶，这些比例真的能记住吗？",
+            "isDayStart": false
+        },
+        "E1_76": {
+            "contents": {
+                "ZH_CN": "用户已上线"
+            },
+            "id": "E1_76",
+            "nextid": "E1_77",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": false
+        },
+        "E1_77": {
+            "contents": {
+                "ZH_CN": "嗯，好了，三分三分地拌匀，现在看上去不错"
+            },
+            "inputTime": 4093,
+            "id": "E1_77",
+            "nextid": "E1_78",
+            "nextMessageDelayTime": 4093,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_128": {
+            "contents": {
+                "ZH_CN": "永远"
+            },
+            "inputTime": 1117,
+            "id": "E1_128",
+            "nextid": "E1_choicee_25",
+            "nextMessageDelayTime": 1117,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "离开我们是什么意思？永远是什么意思？不会吧？Miko的母亲到底怎么了？",
+            "isDayStart": false
+        },
+        "E1_249": {
+            "contents": {
+                "ZH_CN": "有一次他为了哄我去图书馆，给我讲图书馆的故事，妈呀，最后居然是凶杀案"
+            },
+            "inputTime": 7578,
+            "id": "E1_249",
+            "nextid": "E1_250",
+            "nextMessageDelayTime": 7578,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_129": {
+            "contents": {
+                "ZH_CN": "没事没事，我现在挺好的"
+            },
+            "inputTime": 2267,
+            "id": "E1_129",
+            "nextid": "E1_130",
+            "nextMessageDelayTime": 2267,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_124": {
+            "contents": {
+                "ZH_CN": "唉..."
+            },
+            "inputTime": 1463,
+            "id": "E1_124",
+            "nextid": "E1_choicee_24",
+            "nextMessageDelayTime": 1463,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "是我把气氛带偏了吗？明明今天开心做蛋糕啊，怎么开始伤心回忆了...",
+            "isDayStart": false
+        },
+        "E1_245": {
+            "contents": {
+                "ZH_CN": "他公司有什么好玩的，都是科学仪器，都是些不会笑的人穿着白大褂戴着防护眼镜走来走去"
+            },
+            "inputTime": 8207,
+            "id": "E1_245",
+            "nextid": "E1_246",
+            "nextMessageDelayTime": 8207,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_125": {
+            "contents": {
+                "ZH_CN": "嗯..."
+            },
+            "inputTime": 1051,
+            "id": "E1_125",
+            "nextid": "E1_126",
+            "nextMessageDelayTime": 1051,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_246": {
+            "contents": {
+                "ZH_CN": "那些什么叔叔伯伯之类的跟我打招呼，我都不知道他们长什么样"
+            },
+            "inputTime": 5996,
+            "id": "E1_246",
+            "nextid": "E1_247",
+            "nextMessageDelayTime": 5996,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_126": {
+            "contents": {
+                "ZH_CN": "还是不说了吧..."
+            },
+            "inputTime": 2515,
+            "id": "E1_126",
+            "nextid": "E1_127",
+            "nextMessageDelayTime": 2515,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_247": {
+            "contents": {
+                "ZH_CN": "图书馆虽然还行，不过哪儿有带女儿去图书馆玩的啊，玩什么？不是应该带女孩子去海洋馆之类的吗？"
+            },
+            "inputTime": 9200,
+            "id": "E1_247",
+            "nextid": "E1_248",
+            "nextMessageDelayTime": 9200,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_127": {
+            "contents": {
+                "ZH_CN": "总之，两年前她离开我们了"
+            },
+            "inputTime": 2907,
+            "id": "E1_127",
+            "nextid": "E1_128",
+            "nextMessageDelayTime": 2907,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_248": {
+            "contents": {
+                "ZH_CN": "他说图书馆是最有意思的地方，是迷宫，也是最有序的地方，是聚集知识的地方，也是隐藏秘密的地方"
+            },
+            "inputTime": 9175,
+            "id": "E1_248",
+            "nextid": "E1_249",
+            "nextMessageDelayTime": 9175,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_142": {
+            "contents": {
+                "ZH_CN": "可能我们的方式不一样..."
+            },
+            "inputTime": 2764,
+            "id": "E1_142",
+            "nextid": "E1_143",
+            "nextMessageDelayTime": 2764,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_263": {
+            "contents": {
+                "ZH_CN": "都怪你！"
+            },
+            "inputTime": 1420,
+            "id": "E1_263",
+            "nextid": "E1_264",
+            "nextMessageDelayTime": 1420,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_143": {
+            "contents": {
+                "ZH_CN": "想想也真可怕，做父母好难啊，我以后才不要当父母"
+            },
+            "inputTime": 4846,
+            "id": "E1_143",
+            "nextid": "E1_choicee_26",
+            "nextMessageDelayTime": 4846,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_264": {
+            "contents": {
+                "ZH_CN": "都是你瞎指挥，什么嘛！"
+            },
+            "inputTime": 2294,
+            "id": "E1_264",
+            "nextid": "E1_choicee_37",
+            "nextMessageDelayTime": 2294,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "丢锅狂魔Miko！蛋糕做砸了也怨我！",
+            "isDayStart": false
+        },
+        "E1_144": {
+            "contents": {
+                "ZH_CN": "哈哈哈哈哈随便说说嘛"
+            },
+            "inputTime": 2792,
+            "id": "E1_144",
+            "nextid": "E1_145",
+            "nextMessageDelayTime": 2792,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "当父母又不需要考证，当子女也没得选择，感觉都好难的",
+            "isDayStart": false
+        },
+        "E1_265": {
+            "contents": {
+                "ZH_CN": "哼！"
+            },
+            "inputTime": 545,
+            "id": "E1_265",
+            "nextid": "E1_266",
+            "nextMessageDelayTime": 545,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_145": {
+            "contents": {
+                "ZH_CN": "我爸就是一个严谨的科学家，可怕..."
+            },
+            "inputTime": 3931,
+            "id": "E1_145",
+            "nextid": "E1_146",
+            "nextMessageDelayTime": 3931,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_266": {
+            "contents": {
+                "ZH_CN": "算了，反正我也不想当厨师！"
+            },
+            "inputTime": 2764,
+            "id": "E1_266",
+            "nextid": "E1_267",
+            "nextMessageDelayTime": 2764,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_260": {
+            "contents": {
+                "ZH_CN": "用户已上线"
+            },
+            "id": "E1_260",
+            "nextid": "E1_261",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": false
+        },
+        "E1_140": {
+            "contents": {
+                "ZH_CN": "不过这次事情之后，我能理解我和他的关系了"
+            },
+            "inputTime": 4796,
+            "id": "E1_140",
+            "nextid": "E1_141",
+            "nextMessageDelayTime": 4796,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_261": {
+            "photoid": "E1-03",
+            "contents": {
+                "ZH_CN": "[E1-03]\u0026我真是无语了，这到底是什么..."
+            },
+            "id": "E1_261",
+            "nextid": "E1_262",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_TIMELINE",
+            "isDayStart": false
+        },
+        "E1_141": {
+            "contents": {
+                "ZH_CN": "不管怎么说，我和他都感觉到彼此是最重要的人，我们是最关心对方的"
+            },
+            "inputTime": 6726,
+            "id": "E1_141",
+            "nextid": "E1_142",
+            "nextMessageDelayTime": 6726,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_262": {
+            "contents": {
+                "ZH_CN": "这个..."
+            },
+            "inputTime": 1467,
+            "id": "E1_262",
+            "nextid": "E1_choicee_36",
+            "nextMessageDelayTime": 1467,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_60": {
+            "contents": {
+                "ZH_CN": "然后是..."
+            },
+            "inputTime": 1429,
+            "id": "E1_60",
+            "nextid": "E1_61",
+            "nextMessageDelayTime": 1429,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_61": {
+            "contents": {
+                "ZH_CN": "把黄油加糖，融化打发"
+            },
+            "inputTime": 2103,
+            "id": "E1_61",
+            "nextid": "E1_62",
+            "nextMessageDelayTime": 2103,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_62": {
+            "contents": {
+                "ZH_CN": "加入鸡蛋，加入香草精"
+            },
+            "inputTime": 2566,
+            "id": "E1_62",
+            "nextid": "E1_63",
+            "nextMessageDelayTime": 2566,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_67": {
+            "contents": {
+                "ZH_CN": "面粉、红曲粉、可可粉，一起倒下去拌匀就可以了"
+            },
+            "inputTime": 4443,
+            "id": "E1_67",
+            "nextid": "E1_68",
+            "nextMessageDelayTime": 4443,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_68": {
+            "contents": {
+                "ZH_CN": "就这样没错吧？没差什么吧？"
+            },
+            "inputTime": 3303,
+            "id": "E1_68",
+            "nextid": "E1_choicee_17",
+            "nextMessageDelayTime": 3303,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_69": {
+            "contents": {
+                "ZH_CN": "哪里不对？"
+            },
+            "inputTime": 1720,
+            "id": "E1_69",
+            "nextid": "E1_70",
+            "nextMessageDelayTime": 1720,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_63": {
+            "contents": {
+                "ZH_CN": "你等等我哈"
+            },
+            "inputTime": 1611,
+            "id": "E1_63",
+            "nextid": "E1_64",
+            "nextMessageDelayTime": 1611,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_64": {
+            "contents": {
+                "ZH_CN": "用户已下线"
+            },
+            "id": "E1_64",
+            "nextid": "E1_65",
+            "nextMessageDelayTime": 300000,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": false
+        },
+        "E1_65": {
+            "contents": {
+                "ZH_CN": "用户已上线"
+            },
+            "id": "E1_65",
+            "nextid": "E1_66",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": false
+        },
+        "E1_66": {
+            "contents": {
+                "ZH_CN": "嗯嗯，这个东西看上去还不错，现在要加粉了"
+            },
+            "inputTime": 4182,
+            "id": "E1_66",
+            "nextid": "E1_67",
+            "nextMessageDelayTime": 4182,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_139": {
+            "contents": {
+                "ZH_CN": "虽然我有时候很讨厌他唧唧歪歪"
+            },
+            "inputTime": 3397,
+            "id": "E1_139",
+            "nextid": "E1_140",
+            "nextMessageDelayTime": 3397,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_135": {
+            "contents": {
+                "ZH_CN": "我爸就是搞不明白这个啊"
+            },
+            "inputTime": 2638,
+            "id": "E1_135",
+            "nextid": "E1_136",
+            "nextMessageDelayTime": 2638,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_256": {
+            "contents": {
+                "ZH_CN": "不过也因为他这样，所以我也被逼着看了不少书，好像有些还是蛮有意思的"
+            },
+            "inputTime": 7113,
+            "id": "E1_256",
+            "nextid": "E1_257",
+            "nextMessageDelayTime": 7113,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_136": {
+            "contents": {
+                "ZH_CN": "后来他就把我送去法国了，估计也是眼不见为净..."
+            },
+            "inputTime": 5043,
+            "id": "E1_136",
+            "nextid": "E1_137",
+            "nextMessageDelayTime": 5043,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "去法国果然是真的啊，不过在那边又出了什么事情吗？",
+            "isDayStart": false
+        },
+        "E1_257": {
+            "contents": {
+                "ZH_CN": "管他的，看得懂看不懂，我就看着玩也算学到一点算一点吧"
+            },
+            "inputTime": 5761,
+            "id": "E1_257",
+            "nextid": "E1_258",
+            "nextMessageDelayTime": 5761,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_137": {
+            "contents": {
+                "ZH_CN": "我在那边又搞出事情来，结果回来了，这下他更看不顺眼我了..."
+            },
+            "inputTime": 6266,
+            "id": "E1_137",
+            "nextid": "E1_138",
+            "nextMessageDelayTime": 6266,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_258": {
+            "contents": {
+                "ZH_CN": "哎呀，蛋糕应该好了吧，都聊得忘了时间了"
+            },
+            "inputTime": 4413,
+            "id": "E1_258",
+            "nextid": "E1_259",
+            "nextMessageDelayTime": 4413,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_138": {
+            "contents": {
+                "ZH_CN": "他可能也是为了不再有那些不好的情绪，所以这两年天天把自己埋在工作里"
+            },
+            "inputTime": 6909,
+            "id": "E1_138",
+            "nextid": "E1_139",
+            "nextMessageDelayTime": 6909,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_259": {
+            "contents": {
+                "ZH_CN": "用户已下线"
+            },
+            "id": "E1_259",
+            "nextid": "E1_260",
+            "nextMessageDelayTime": 300000,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "daily": "啊啊啊啊蛋糕烤好了！我和Miko一起做得蛋糕是什么样子？！",
+            "isDayStart": false
+        },
+        "E1_153": {
+            "contents": {
+                "ZH_CN": "不过他经常带我去图书馆，搞笑吧？"
+            },
+            "inputTime": 3795,
+            "id": "E1_153",
+            "nextid": "E1_154",
+            "nextMessageDelayTime": 3795,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_154": {
+            "contents": {
+                "ZH_CN": "哪儿有带女儿去图书馆玩的啊，玩什么？"
+            },
+            "inputTime": 3650,
+            "id": "E1_154",
+            "nextid": "E1_155",
+            "nextMessageDelayTime": 3650,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_155": {
+            "contents": {
+                "ZH_CN": "他说图书馆是最有意思的地方，是迷宫，也是最有序的地方，是聚集知识的地方，也是隐藏秘密的地方"
+            },
+            "inputTime": 9010,
+            "id": "E1_155",
+            "nextid": "E1_156",
+            "nextMessageDelayTime": 9010,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_156": {
+            "contents": {
+                "ZH_CN": "有一次他为了哄我去图书馆，给我讲图书馆的故事，妈呀，最后居然是凶杀案"
+            },
+            "inputTime": 7141,
+            "id": "E1_156",
+            "nextid": "E1_157",
+            "nextMessageDelayTime": 7141,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_270": {
+            "contents": {
+                "ZH_CN": "最多我叫外卖请你吃喽"
+            },
+            "inputTime": 2102,
+            "id": "E1_270",
+            "nextid": "E1_choicee_38",
+            "nextMessageDelayTime": 2102,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_150": {
+            "contents": {
+                "ZH_CN": "不过我要什么他都给我，买小裙子呀什么的不管多贵也从来不拒绝，他就是烦我那些习惯"
+            },
+            "inputTime": 8592,
+            "id": "E1_150",
+            "nextid": "E1_151",
+            "nextMessageDelayTime": 8592,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_271": {
+            "contents": {
+                "ZH_CN": "游戏结束，重新开始"
+            },
+            "id": "E1_271",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "scence": "结局1",
+            "type": "GAME_BE",
+            "isDayStart": false
+        },
+        "E1_151": {
+            "contents": {
+                "ZH_CN": "当然，我也烦他..."
+            },
+            "inputTime": 2507,
+            "id": "E1_151",
+            "nextid": "E1_152",
+            "nextMessageDelayTime": 2507,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_272": {
+            "contents": {
+                "ZH_CN": "游戏结束，进入尾声"
+            },
+            "id": "E1_272",
+            "nextid": "E1_273",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "scence": "结局2",
+            "type": "GAME_HE",
+            "isDayStart": false
+        },
+        "E1_152": {
+            "contents": {
+                "ZH_CN": "以前他不忙的时候，他还经常带我出去玩"
+            },
+            "inputTime": 4141,
+            "id": "E1_152",
+            "nextid": "E1_153",
+            "nextMessageDelayTime": 4141,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_273": {
+            "contents": {
+                "ZH_CN": "More…接受来自异次元的不明通讯，和Miko酱一起探险，下一次还会有什么样的惊险事件？请继续关注《异次元通讯》！"
+            },
+            "id": "E1_273",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "scence": "尾声",
+            "type": "GAME_END",
+            "isDayStart": false
+        },
+        "E1_50": {
+            "contents": {
+                "ZH_CN": "哈哈哈哈哈开心"
+            },
+            "inputTime": 1463,
+            "id": "E1_50",
+            "nextid": "E1_51",
+            "nextMessageDelayTime": 1463,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_51": {
+            "contents": {
+                "ZH_CN": "那么我开始了！"
+            },
+            "inputTime": 1886,
+            "id": "E1_51",
+            "nextid": "E1_52",
+            "nextMessageDelayTime": 1886,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_56": {
+            "contents": {
+                "ZH_CN": "用户已上线"
+            },
+            "id": "E1_56",
+            "nextid": "E1_57",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": false
+        },
+        "E1_57": {
+            "contents": {
+                "ZH_CN": "嗯！明白了！"
+            },
+            "inputTime": 1662,
+            "id": "E1_57",
+            "nextid": "E1_58",
+            "nextMessageDelayTime": 1662,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_58": {
+            "contents": {
+                "ZH_CN": "低粉，可可粉，红曲粉，黄油，糖，鸡蛋，香草精，酪乳，小苏打，好啦，材料都有了"
+            },
+            "inputTime": 8321,
+            "id": "E1_58",
+            "nextid": "E1_59",
+            "nextMessageDelayTime": 8321,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_59": {
+            "contents": {
+                "ZH_CN": "先把粉类过筛混合..."
+            },
+            "inputTime": 2508,
+            "id": "E1_59",
+            "nextid": "E1_60",
+            "nextMessageDelayTime": 2508,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_52": {
+            "contents": {
+                "ZH_CN": "首先..."
+            },
+            "inputTime": 1668,
+            "id": "E1_52",
+            "nextid": "E1_53",
+            "nextMessageDelayTime": 1668,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_53": {
+            "contents": {
+                "ZH_CN": "首先要干什么？"
+            },
+            "inputTime": 1505,
+            "id": "E1_53",
+            "nextid": "E1_54",
+            "nextMessageDelayTime": 1505,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_54": {
+            "contents": {
+                "ZH_CN": "额...你等一下，我去查一查"
+            },
+            "inputTime": 2836,
+            "id": "E1_54",
+            "nextid": "E1_55",
+            "nextMessageDelayTime": 2836,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_55": {
+            "contents": {
+                "ZH_CN": "用户已下线"
+            },
+            "id": "E1_55",
+            "nextid": "E1_56",
+            "nextMessageDelayTime": 300000,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "daily": "不是宣称自己会做吗，还要去查什么？？？说好的蓝带呢？？？",
+            "isDayStart": false
+        },
+        "E1_146": {
+            "contents": {
+                "ZH_CN": "成天就要求我这，看不惯我那的"
+            },
+            "inputTime": 2806,
+            "id": "E1_146",
+            "nextid": "E1_147",
+            "nextMessageDelayTime": 2806,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_267": {
+            "contents": {
+                "ZH_CN": "反正吃不到好蛋糕，损失的又不是我！"
+            },
+            "inputTime": 3503,
+            "id": "E1_267",
+            "nextid": "E1_268",
+            "nextMessageDelayTime": 3503,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_147": {
+            "contents": {
+                "ZH_CN": "衣服不许乱扔！为什么不穿鞋在家里跑！你的东西我怎么知道在哪儿！看看你的电脑桌面都乱成什么样了！要是我一把全部给你删了！"
+            },
+            "inputTime": 12141,
+            "id": "E1_147",
+            "nextid": "E1_148",
+            "nextMessageDelayTime": 12141,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_268": {
+            "contents": {
+                "ZH_CN": "啊，想想要收拾这一大摊破事，疯都疯了"
+            },
+            "inputTime": 4306,
+            "id": "E1_268",
+            "nextid": "E1_269",
+            "nextMessageDelayTime": 4306,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_148": {
+            "contents": {
+                "ZH_CN": "所有东西都应该有它唯一的位置！"
+            },
+            "inputTime": 3664,
+            "id": "E1_148",
+            "nextid": "E1_149",
+            "nextMessageDelayTime": 3664,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_269": {
+            "contents": {
+                "ZH_CN": "喂！你要不要来帮我收拾厨房啊？"
+            },
+            "inputTime": 3703,
+            "id": "E1_269",
+            "nextid": "E1_270",
+            "nextMessageDelayTime": 3703,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_149": {
+            "contents": {
+                "ZH_CN": "blahblahblah..."
+            },
+            "inputTime": 3765,
+            "id": "E1_149",
+            "nextid": "E1_150",
+            "nextMessageDelayTime": 3765,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_164": {
+            "contents": {
+                "ZH_CN": "管他的，看得懂看不懂，我就看着玩也算学到一点算一点吧"
+            },
+            "inputTime": 5392,
+            "id": "E1_164",
+            "nextid": "E1_165",
+            "nextMessageDelayTime": 5392,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_165": {
+            "contents": {
+                "ZH_CN": "哎呀，蛋糕应该好了吧，都聊得忘了时间了"
+            },
+            "inputTime": 4334,
+            "id": "E1_165",
+            "nextid": "E1_166",
+            "nextMessageDelayTime": 4334,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_166": {
+            "contents": {
+                "ZH_CN": "用户已下线"
+            },
+            "id": "E1_166",
+            "nextid": "E1_167",
+            "nextMessageDelayTime": 300000,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": false
+        },
+        "E1_167": {
+            "contents": {
+                "ZH_CN": "用户已上线"
+            },
+            "id": "E1_167",
+            "nextid": "E1_168",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": false
+        },
+        "E1_160": {
+            "contents": {
+                "ZH_CN": "你说哲学家干点什么不好，写凶杀案小说？"
+            },
+            "inputTime": 4366,
+            "id": "E1_160",
+            "nextid": "E1_161",
+            "nextMessageDelayTime": 4366,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_161": {
+            "contents": {
+                "ZH_CN": "真是的..."
+            },
+            "inputTime": 1378,
+            "id": "E1_161",
+            "nextid": "E1_162",
+            "nextMessageDelayTime": 1378,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_162": {
+            "contents": {
+                "ZH_CN": "有时候觉得我爸也是搞笑..."
+            },
+            "inputTime": 3157,
+            "id": "E1_162",
+            "nextid": "E1_163",
+            "nextMessageDelayTime": 3157,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_163": {
+            "contents": {
+                "ZH_CN": "不过也因为他这样，所以我也被逼着看了不少书，好像有些还是蛮有意思的"
+            },
+            "inputTime": 6752,
+            "id": "E1_163",
+            "nextid": "E1_164",
+            "nextMessageDelayTime": 6752,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_40": {
+            "contents": {
+                "ZH_CN": "我说了请你来吃蛋糕啊，你自己不来，怪谁？！"
+            },
+            "inputTime": 4486,
+            "id": "E1_40",
+            "nextid": "E1_41",
+            "nextMessageDelayTime": 4486,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_45": {
+            "contents": {
+                "ZH_CN": "好好看着！做好你的参谋这份有前途的职业吧！"
+            },
+            "inputTime": 4328,
+            "id": "E1_45",
+            "nextid": "E1_51",
+            "nextMessageDelayTime": 4328,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "我什么时候又变成Miko的参谋了...不过听上去还行",
+            "isDayStart": false
+        },
+        "E1_46": {
+            "contents": {
+                "ZH_CN": "脾气很大嘛..."
+            },
+            "inputTime": 2283,
+            "id": "E1_46",
+            "nextid": "E1_47",
+            "nextMessageDelayTime": 2283,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_47": {
+            "contents": {
+                "ZH_CN": "比我还大..."
+            },
+            "inputTime": 2153,
+            "id": "E1_47",
+            "nextid": "E1_48",
+            "nextMessageDelayTime": 2153,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_48": {
+            "contents": {
+                "ZH_CN": "求求你，求你吃我做的蛋糕好不好？"
+            },
+            "inputTime": 3210,
+            "id": "E1_48",
+            "nextid": "E1_49",
+            "nextMessageDelayTime": 3210,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_41": {
+            "contents": {
+                "ZH_CN": "好啦，我现在亲自做蛋糕请你吃，好不好"
+            },
+            "inputTime": 3814,
+            "id": "E1_41",
+            "nextid": "E1_choicee_13",
+            "nextMessageDelayTime": 3814,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "还怨我昨天不去吃蛋糕？！Miko这波甩锅可以的！",
+            "isDayStart": false
+        },
+        "E1_42": {
+            "contents": {
+                "ZH_CN": "那么我开始了！等会就有好吃的蛋糕新鲜出炉啦"
+            },
+            "inputTime": 4925,
+            "id": "E1_42",
+            "nextid": "E1_choicee_14",
+            "nextMessageDelayTime": 4925,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_43": {
+            "contents": {
+                "ZH_CN": "什么啊！小看我是不是！好歹我也是蓝带学院的"
+            },
+            "inputTime": 4725,
+            "id": "E1_43",
+            "nextid": "E1_choicee_15",
+            "nextMessageDelayTime": 4725,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_44": {
+            "contents": {
+                "ZH_CN": "闭嘴！"
+            },
+            "inputTime": 1133,
+            "id": "E1_44",
+            "nextid": "E1_45",
+            "nextMessageDelayTime": 1133,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_49": {
+            "contents": {
+                "ZH_CN": "QwQ"
+            },
+            "inputTime": 1070,
+            "id": "E1_49",
+            "nextid": "E1_choicee_16",
+            "nextMessageDelayTime": 1070,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "哇，这是Miko说出的话吗？这个家伙也会软萌的吗？不敢信不敢信~",
+            "isDayStart": false
+        },
+        "E1_157": {
+            "contents": {
+                "ZH_CN": "这种故事亏他也讲得出来哦"
+            },
+            "inputTime": 3176,
+            "id": "E1_157",
+            "nextid": "E1_choicee_27",
+            "nextMessageDelayTime": 3176,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "这是家族遗传吧...Miko也是个不按套路出牌的人啊，翻墙踢人搞破坏什么的...",
+            "isDayStart": false
+        },
+        "E1_158": {
+            "contents": {
+                "ZH_CN": "是啊是啊"
+            },
+            "inputTime": 1286,
+            "id": "E1_158",
+            "nextid": "E1_159",
+            "nextMessageDelayTime": 1286,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_159": {
+            "contents": {
+                "ZH_CN": "他说是一个著名的哲学家写的小说"
+            },
+            "inputTime": 3642,
+            "id": "E1_159",
+            "nextid": "E1_160",
+            "nextMessageDelayTime": 3642,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_210": {
+            "contents": {
+                "ZH_CN": "这不是有你么？"
+            },
+            "inputTime": 2147,
+            "id": "E1_210",
+            "nextid": "E1_211",
+            "nextMessageDelayTime": 2147,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_211": {
+            "contents": {
+                "ZH_CN": "突然觉得好像就是你还比较谈得来"
+            },
+            "inputTime": 3559,
+            "id": "E1_211",
+            "nextid": "E1_212",
+            "nextMessageDelayTime": 3559,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_34": {
+            "contents": {
+                "ZH_CN": "好吧..."
+            },
+            "inputTime": 1191,
+            "id": "E1_34",
+            "nextid": "E1_35",
+            "nextMessageDelayTime": 1191,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_35": {
+            "contents": {
+                "ZH_CN": "那么肯定不好吃"
+            },
+            "inputTime": 1722,
+            "id": "E1_35",
+            "nextid": "E1_36",
+            "nextMessageDelayTime": 1722,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_36": {
+            "contents": {
+                "ZH_CN": "因为那是买来的，而我现在要自己做，我自己做的蛋糕最好吃了"
+            },
+            "inputTime": 6002,
+            "id": "E1_36",
+            "nextid": "E1_37",
+            "nextMessageDelayTime": 6002,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_37": {
+            "contents": {
+                "ZH_CN": "对不对？"
+            },
+            "inputTime": 945,
+            "id": "E1_37",
+            "nextid": "E1_38",
+            "nextMessageDelayTime": 945,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_30": {
+            "contents": {
+                "ZH_CN": "差不多吧"
+            },
+            "inputTime": 916,
+            "id": "E1_30",
+            "nextid": "E1_31",
+            "nextMessageDelayTime": 916,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "Miko这是要亲自做蛋糕？！为什么我有不祥的预感...",
+            "isDayStart": false
+        },
+        "E1_209": {
+            "contents": {
+                "ZH_CN": "他每天都忙，我也是习惯了一个人"
+            },
+            "inputTime": 3463,
+            "id": "E1_209",
+            "nextid": "E1_choicee_32",
+            "nextMessageDelayTime": 3463,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_31": {
+            "contents": {
+                "ZH_CN": "我打算做蛋糕！红丝绒蛋糕！"
+            },
+            "inputTime": 2802,
+            "id": "E1_31",
+            "nextid": "E1_choicee_10",
+            "nextMessageDelayTime": 2802,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "Miko要自己做蛋糕？！太可怕了...",
+            "isDayStart": false
+        },
+        "E1_32": {
+            "contents": {
+                "ZH_CN": "哎呀，昨天的蛋糕你没来吃么？"
+            },
+            "inputTime": 3316,
+            "id": "E1_32",
+            "nextid": "E1_choicee_11",
+            "nextMessageDelayTime": 3316,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_33": {
+            "contents": {
+                "ZH_CN": "吃了？"
+            },
+            "inputTime": 901,
+            "id": "E1_33",
+            "nextid": "E1_34",
+            "nextMessageDelayTime": 901,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_205": {
+            "contents": {
+                "ZH_CN": "可是现在的人，都有点懒得跟人交流的样子吧"
+            },
+            "inputTime": 4580,
+            "id": "E1_205",
+            "nextid": "E1_206",
+            "nextMessageDelayTime": 4580,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_206": {
+            "contents": {
+                "ZH_CN": "还是做做自己喜欢的事情最好"
+            },
+            "inputTime": 3165,
+            "id": "E1_206",
+            "nextid": "E1_207",
+            "nextMessageDelayTime": 3165,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_207": {
+            "contents": {
+                "ZH_CN": "再说了..."
+            },
+            "inputTime": 1781,
+            "id": "E1_207",
+            "nextid": "E1_210",
+            "nextMessageDelayTime": 1781,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "Miko说得也对，与其到处社交浪费时间和精力，还不如有几个知心的朋友默默关注着",
+            "isDayStart": false
+        },
+        "E1_208": {
+            "contents": {
+                "ZH_CN": "嗯，我没跟人说过这些，不知道该怎么说...我家里就我和爸爸"
+            },
+            "inputTime": 6287,
+            "id": "E1_208",
+            "nextid": "E1_209",
+            "nextMessageDelayTime": 6287,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_38": {
+            "contents": {
+                "ZH_CN": "说对！"
+            },
+            "inputTime": 967,
+            "id": "E1_38",
+            "nextid": "E1_choicee_12",
+            "nextMessageDelayTime": 967,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "对对对！你做的蛋糕最好吃，你说的都对...",
+            "isDayStart": false
+        },
+        "E1_201": {
+            "contents": {
+                "ZH_CN": "就突然觉得，我的孤独与他人无关"
+            },
+            "inputTime": 3757,
+            "id": "E1_201",
+            "nextid": "E1_202",
+            "nextMessageDelayTime": 3757,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_39": {
+            "contents": {
+                "ZH_CN": "我我我..."
+            },
+            "inputTime": 1239,
+            "id": "E1_39",
+            "nextid": "E1_40",
+            "nextMessageDelayTime": 1239,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_202": {
+            "contents": {
+                "ZH_CN": "不对，其实我也没有孤独啊"
+            },
+            "inputTime": 2706,
+            "id": "E1_202",
+            "nextid": "E1_203",
+            "nextMessageDelayTime": 2706,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_1": {
+            "contents": {
+                "ZH_CN": "网络连接中…"
+            },
+            "id": "E1_1",
+            "nextid": "E1_2",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "scence": "家-好结局",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": true
+        },
+        "E1_203": {
+            "contents": {
+                "ZH_CN": "反正就懒得去猜别人的心思，也懒得让别人来猜我的心思"
+            },
+            "inputTime": 5229,
+            "id": "E1_203",
+            "nextid": "E1_choicee_31",
+            "nextMessageDelayTime": 5229,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "猜心思这种事情不是女孩子最喜欢的嘛，Miko还真是跟别人不太一样",
+            "isDayStart": false
+        },
+        "E1_2": {
+            "contents": {
+                "ZH_CN": "用户已上线"
+            },
+            "id": "E1_2",
+            "nextid": "E1_3",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": false
+        },
+        "E1_204": {
+            "contents": {
+                "ZH_CN": "可能算是吧..."
+            },
+            "inputTime": 2300,
+            "id": "E1_204",
+            "nextid": "E1_205",
+            "nextMessageDelayTime": 2300,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_220": {
+            "contents": {
+                "ZH_CN": "没事没事，我现在挺好的"
+            },
+            "inputTime": 2687,
+            "id": "E1_220",
+            "nextid": "E1_221",
+            "nextMessageDelayTime": 2687,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_100": {
+            "contents": {
+                "ZH_CN": "那我去了..."
+            },
+            "inputTime": 1650,
+            "id": "E1_100",
+            "nextid": "E1_101",
+            "nextMessageDelayTime": 1650,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_221": {
+            "contents": {
+                "ZH_CN": "想想两年前的那个时刻，还真是难熬"
+            },
+            "inputTime": 3299,
+            "id": "E1_221",
+            "nextid": "E1_222",
+            "nextMessageDelayTime": 3299,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_101": {
+            "contents": {
+                "ZH_CN": "用户已下线"
+            },
+            "id": "E1_101",
+            "nextid": "E1_167",
+            "nextMessageDelayTime": 1800000,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "daily": "等等...我都说了什么？！陪妹纸聊天还是自己去打游戏，我选了打游戏？",
+            "isDayStart": false
+        },
+        "E1_222": {
+            "contents": {
+                "ZH_CN": "之后的一段时间，我和爸爸闹得挺厉害，互相都看不顺眼，吵得很厉害"
+            },
+            "inputTime": 6232,
+            "id": "E1_222",
+            "nextid": "E1_223",
+            "nextMessageDelayTime": 6232,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_23": {
+            "contents": {
+                "ZH_CN": "好啦好啦，不管怎样，事情总算结束了"
+            },
+            "inputTime": 4028,
+            "id": "E1_23",
+            "nextid": "E1_24",
+            "nextMessageDelayTime": 4028,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_24": {
+            "contents": {
+                "ZH_CN": "希望以后这种事情不要再让我碰上了，真是少活几年..."
+            },
+            "inputTime": 5999,
+            "id": "E1_24",
+            "nextid": "E1_choicee_7",
+            "nextMessageDelayTime": 5999,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_25": {
+            "contents": {
+                "ZH_CN": "哎，我跟你讲，我今天想干一件事情"
+            },
+            "inputTime": 3337,
+            "id": "E1_25",
+            "nextid": "E1_26",
+            "nextMessageDelayTime": 3337,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_26": {
+            "contents": {
+                "ZH_CN": "你猜"
+            },
+            "inputTime": 442,
+            "id": "E1_26",
+            "nextid": "E1_choicee_8",
+            "nextMessageDelayTime": 442,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_20": {
+            "contents": {
+                "ZH_CN": "警察那边又找了我爸去了解情况，好像那公司也开始被调查了，听说美术馆都封起来了呢"
+            },
+            "inputTime": 7970,
+            "id": "E1_20",
+            "nextid": "E1_21",
+            "nextMessageDelayTime": 7970,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_21": {
+            "contents": {
+                "ZH_CN": "现在想想，还有点后怕呢，你说我当时怎么就那么冲动呢"
+            },
+            "inputTime": 5415,
+            "id": "E1_21",
+            "nextid": "E1_22",
+            "nextMessageDelayTime": 5415,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_22": {
+            "contents": {
+                "ZH_CN": "说起来，你也不拦着我！一个美少女冲到坏人巢穴去，难道你就不担心出什么事情吗？！"
+            },
+            "inputTime": 7828,
+            "id": "E1_22",
+            "nextid": "E1_choicee_6",
+            "nextMessageDelayTime": 7828,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "又自称美少女了...",
+            "isDayStart": false
+        },
+        "E1_216": {
+            "contents": {
+                "ZH_CN": "嗯..."
+            },
+            "inputTime": 1252,
+            "id": "E1_216",
+            "nextid": "E1_217",
+            "nextMessageDelayTime": 1252,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_217": {
+            "contents": {
+                "ZH_CN": "还是不说了吧..."
+            },
+            "inputTime": 2330,
+            "id": "E1_217",
+            "nextid": "E1_218",
+            "nextMessageDelayTime": 2330,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_218": {
+            "contents": {
+                "ZH_CN": "总之，两年前她离开我们了"
+            },
+            "inputTime": 2422,
+            "id": "E1_218",
+            "nextid": "E1_219",
+            "nextMessageDelayTime": 2422,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_219": {
+            "contents": {
+                "ZH_CN": "永远"
+            },
+            "inputTime": 694,
+            "id": "E1_219",
+            "nextid": "E1_choicee_33",
+            "nextMessageDelayTime": 694,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "离开我们？永远？Miko母亲不会是...",
+            "isDayStart": false
+        },
+        "E1_27": {
+            "contents": {
+                "ZH_CN": "猪！"
+            },
+            "inputTime": 742,
+            "id": "E1_27",
+            "nextid": "E1_28",
+            "nextMessageDelayTime": 742,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_212": {
+            "contents": {
+                "ZH_CN": "其实我也不是脾气坏啦，之前他们都说我挺随和的"
+            },
+            "inputTime": 4739,
+            "id": "E1_212",
+            "nextid": "E1_213",
+            "nextMessageDelayTime": 4739,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_28": {
+            "photoid": "E1-01",
+            "contents": {
+                "ZH_CN": "[E1-01]\u0026决定了！今天要做一件大事！"
+            },
+            "id": "E1_28",
+            "nextid": "E1_29",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_TIMELINE",
+            "isDayStart": false
+        },
+        "E1_213": {
+            "contents": {
+                "ZH_CN": "可是两年前，妈妈出事..."
+            },
+            "inputTime": 3142,
+            "id": "E1_213",
+            "nextid": "E1_214",
+            "nextMessageDelayTime": 3142,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_29": {
+            "contents": {
+                "ZH_CN": "看我动态！(●｀∀´●)╯"
+            },
+            "inputTime": 2693,
+            "id": "E1_29",
+            "nextid": "E1_choicee_9",
+            "nextMessageDelayTime": 2693,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_214": {
+            "contents": {
+                "ZH_CN": "反正之后我就看谁都不顺眼"
+            },
+            "inputTime": 3018,
+            "id": "E1_214",
+            "nextid": "E1_215",
+            "nextMessageDelayTime": 3018,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_215": {
+            "contents": {
+                "ZH_CN": "唉..."
+            },
+            "inputTime": 1038,
+            "id": "E1_215",
+            "nextid": "E1_221",
+            "nextMessageDelayTime": 1038,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "聊着聊着好像气氛就低沉了，一说到家里的事情，Miko总是不开心...",
+            "isDayStart": false
+        },
+        "E1_230": {
+            "contents": {
+                "ZH_CN": "虽然我有时候很讨厌他唧唧歪歪"
+            },
+            "inputTime": 3415,
+            "id": "E1_230",
+            "nextid": "E1_231",
+            "nextMessageDelayTime": 3415,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_110": {
+            "contents": {
+                "ZH_CN": "反正就懒得去猜别人的心思，也懒得让别人来猜我的心思"
+            },
+            "inputTime": 5187,
+            "id": "E1_110",
+            "nextid": "E1_choicee_21",
+            "nextMessageDelayTime": 5187,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "女孩子不是应该有很多聊不完的朋友才对吗，Miko是经历过什么才会变成这样的？",
+            "isDayStart": false
+        },
+        "E1_231": {
+            "contents": {
+                "ZH_CN": "不过这次事情之后，我能理解我和他的关系了"
+            },
+            "inputTime": 4547,
+            "id": "E1_231",
+            "nextid": "E1_232",
+            "nextMessageDelayTime": 4547,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_111": {
+            "contents": {
+                "ZH_CN": "可能算是吧..."
+            },
+            "inputTime": 2060,
+            "id": "E1_111",
+            "nextid": "E1_112",
+            "nextMessageDelayTime": 2060,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_232": {
+            "contents": {
+                "ZH_CN": "不管怎么说，我和他都感觉到彼此是最重要的人，我们是最关心对方的"
+            },
+            "inputTime": 6457,
+            "id": "E1_232",
+            "nextid": "E1_233",
+            "nextMessageDelayTime": 6457,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_112": {
+            "contents": {
+                "ZH_CN": "可是现在的人，谁又没有一点点不想跟人交流的想法呢"
+            },
+            "inputTime": 5093,
+            "id": "E1_112",
+            "nextid": "E1_113",
+            "nextMessageDelayTime": 5093,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_233": {
+            "contents": {
+                "ZH_CN": "可能我们的方式不一样..."
+            },
+            "inputTime": 2968,
+            "id": "E1_233",
+            "nextid": "E1_234",
+            "nextMessageDelayTime": 2968,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_12": {
+            "contents": {
+                "ZH_CN": "混蛋！"
+            },
+            "inputTime": 1259,
+            "id": "E1_12",
+            "nextid": "E1_choicee_2",
+            "nextMessageDelayTime": 1259,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_13": {
+            "contents": {
+                "ZH_CN": "哼哼~"
+            },
+            "inputTime": 982,
+            "id": "E1_13",
+            "nextid": "E1_14",
+            "nextMessageDelayTime": 982,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_14": {
+            "contents": {
+                "ZH_CN": "怎么说我们也是一起出生入死的，你以后再开这种玩笑，我就揍你"
+            },
+            "inputTime": 5924,
+            "id": "E1_14",
+            "nextid": "E1_choicee_3",
+            "nextMessageDelayTime": 5924,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_15": {
+            "contents": {
+                "ZH_CN": "哼~"
+            },
+            "inputTime": 654,
+            "id": "E1_15",
+            "nextid": "E1_choicee_4",
+            "nextMessageDelayTime": 654,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_10": {
+            "contents": {
+                "ZH_CN": "用户已下线"
+            },
+            "id": "E1_10",
+            "nextid": "E1_11",
+            "nextMessageDelayTime": 300000,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "daily": "又玩下线...还是熟悉的配方，还是熟悉的Miko~",
+            "isDayStart": false
+        },
+        "E1_11": {
+            "contents": {
+                "ZH_CN": "用户已上线"
+            },
+            "id": "E1_11",
+            "nextid": "E1_12",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "SYSTEM_STATUS_TIPS",
+            "isDayStart": false
+        },
+        "E1_106": {
+            "contents": {
+                "ZH_CN": "后来也就不怎么说话了，有什么事情就放在心里好了，其实又真有什么事情值得分享呢"
+            },
+            "inputTime": 8236,
+            "id": "E1_106",
+            "nextid": "E1_107",
+            "nextMessageDelayTime": 8236,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_227": {
+            "contents": {
+                "ZH_CN": "后来他就把我送去法国了，估计也是眼不见为净..."
+            },
+            "inputTime": 4971,
+            "id": "E1_227",
+            "nextid": "E1_228",
+            "nextMessageDelayTime": 4971,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "Miko还真去法国了，不过搞出事情又是什么意思？",
+            "isDayStart": false
+        },
+        "E1_107": {
+            "contents": {
+                "ZH_CN": "沉默可能是一种自我保护吧，看着那些人情与世事都没什么感动的"
+            },
+            "inputTime": 6295,
+            "id": "E1_107",
+            "nextid": "E1_108",
+            "nextMessageDelayTime": 6295,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_228": {
+            "contents": {
+                "ZH_CN": "我在那边又搞出事情来，结果回来了，这下他更看不顺眼我了..."
+            },
+            "inputTime": 6227,
+            "id": "E1_228",
+            "nextid": "E1_229",
+            "nextMessageDelayTime": 6227,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_108": {
+            "contents": {
+                "ZH_CN": "就突然觉得，我的孤独与他人无关"
+            },
+            "inputTime": 3238,
+            "id": "E1_108",
+            "nextid": "E1_109",
+            "nextMessageDelayTime": 3238,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_229": {
+            "contents": {
+                "ZH_CN": "他可能也是为了不再有那些不好的情绪，所以这两年天天把自己埋在工作里"
+            },
+            "inputTime": 7179,
+            "id": "E1_229",
+            "nextid": "E1_230",
+            "nextMessageDelayTime": 7179,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_109": {
+            "contents": {
+                "ZH_CN": "不对，其实我也没有孤独啊"
+            },
+            "inputTime": 2875,
+            "id": "E1_109",
+            "nextid": "E1_110",
+            "nextMessageDelayTime": 2875,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_16": {
+            "contents": {
+                "ZH_CN": "好呀！"
+            },
+            "inputTime": 983,
+            "id": "E1_16",
+            "nextid": "E1_17",
+            "nextMessageDelayTime": 983,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_102": {
+            "contents": {
+                "ZH_CN": "好啊好啊！"
+            },
+            "inputTime": 1380,
+            "id": "E1_102",
+            "nextid": "E1_103",
+            "nextMessageDelayTime": 1380,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_223": {
+            "contents": {
+                "ZH_CN": "现在想想，应该是我俩都找不到平复情绪的办法，却不由自主在互相伤害"
+            },
+            "inputTime": 6815,
+            "id": "E1_223",
+            "nextid": "E1_224",
+            "nextMessageDelayTime": 6815,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_17": {
+            "contents": {
+                "ZH_CN": "怎么样？今天有没有好一点？昨天的事情没有给你带来麻烦吧"
+            },
+            "inputTime": 5641,
+            "id": "E1_17",
+            "nextid": "E1_choicee_5",
+            "nextMessageDelayTime": 5641,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "麻烦吗？你就是最大的麻烦了呀",
+            "isDayStart": false
+        },
+        "E1_103": {
+            "contents": {
+                "ZH_CN": "其实说起来，我很少跟人聊天哦"
+            },
+            "inputTime": 2889,
+            "id": "E1_103",
+            "nextid": "E1_104",
+            "nextMessageDelayTime": 2889,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_224": {
+            "contents": {
+                "ZH_CN": "其实我这个人就是，你不能顺着我来，你越顺着我，我就觉得你讨厌"
+            },
+            "inputTime": 6142,
+            "id": "E1_224",
+            "nextid": "E1_225",
+            "nextMessageDelayTime": 6142,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_18": {
+            "contents": {
+                "ZH_CN": "那就好"
+            },
+            "inputTime": 1026,
+            "id": "E1_18",
+            "nextid": "E1_19",
+            "nextMessageDelayTime": 1026,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_104": {
+            "contents": {
+                "ZH_CN": "在学校的时候也很少跟人说话，总觉得很烦啊"
+            },
+            "inputTime": 4340,
+            "id": "E1_104",
+            "nextid": "E1_105",
+            "nextMessageDelayTime": 4340,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_225": {
+            "contents": {
+                "ZH_CN": "你应该一针见血地指出我的毛病，我反而就服你（当然啦，你态度要好~~"
+            },
+            "inputTime": 7320,
+            "id": "E1_225",
+            "nextid": "E1_226",
+            "nextMessageDelayTime": 7320,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_19": {
+            "contents": {
+                "ZH_CN": "我这边没事啦"
+            },
+            "inputTime": 1782,
+            "id": "E1_19",
+            "nextid": "E1_20",
+            "nextMessageDelayTime": 1782,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_105": {
+            "contents": {
+                "ZH_CN": "不对，也不是烦，就是觉得要费心去说别人能理解的话，又要担心自己说的别人会不会感兴趣，很累"
+            },
+            "inputTime": 9362,
+            "id": "E1_105",
+            "nextid": "E1_106",
+            "nextMessageDelayTime": 9362,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_226": {
+            "contents": {
+                "ZH_CN": "我爸就是搞不明白这个啊"
+            },
+            "inputTime": 2950,
+            "id": "E1_226",
+            "nextid": "E1_227",
+            "nextMessageDelayTime": 2950,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_3": {
+            "contents": {
+                "ZH_CN": "莫西莫西～"
+            },
+            "inputTime": 1143,
+            "id": "E1_3",
+            "nextid": "E1_4",
+            "nextMessageDelayTime": 1143,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "dictionary": "E1_1",
+            "isDayStart": false
+        },
+        "E1_120": {
+            "contents": {
+                "ZH_CN": "闭嘴啦，听我说"
+            },
+            "inputTime": 1580,
+            "id": "E1_120",
+            "nextid": "E1_121",
+            "nextMessageDelayTime": 1580,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_241": {
+            "contents": {
+                "ZH_CN": "不过我要什么他都给我，买小裙子呀什么的不管多贵也从来不拒绝，他就是烦我那些习惯"
+            },
+            "inputTime": 8084,
+            "id": "E1_241",
+            "nextid": "E1_242",
+            "nextMessageDelayTime": 8084,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_4": {
+            "contents": {
+                "ZH_CN": "还在干嘛！？"
+            },
+            "inputTime": 1257,
+            "id": "E1_4",
+            "nextid": "E1_5",
+            "nextMessageDelayTime": 1257,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_121": {
+            "contents": {
+                "ZH_CN": "后来妈妈出事了，就剩我和爸爸在空荡荡的房子里，我们之间突然就像少了什么"
+            },
+            "inputTime": 7710,
+            "id": "E1_121",
+            "nextid": "E1_122",
+            "nextMessageDelayTime": 7710,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_242": {
+            "contents": {
+                "ZH_CN": "当然，我也烦他..."
+            },
+            "inputTime": 2436,
+            "id": "E1_242",
+            "nextid": "E1_243",
+            "nextMessageDelayTime": 2436,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_5": {
+            "contents": {
+                "ZH_CN": "喂！"
+            },
+            "inputTime": 552,
+            "id": "E1_5",
+            "nextid": "E1_choicee_1",
+            "nextMessageDelayTime": 552,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_122": {
+            "contents": {
+                "ZH_CN": "每天面对面，不知道该说什么"
+            },
+            "inputTime": 3242,
+            "id": "E1_122",
+            "nextid": "E1_123",
+            "nextMessageDelayTime": 3242,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_243": {
+            "contents": {
+                "ZH_CN": "以前他不忙的时候，他还经常带我出去玩"
+            },
+            "inputTime": 3929,
+            "id": "E1_243",
+            "nextid": "E1_244",
+            "nextMessageDelayTime": 3929,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_6": {
+            "contents": {
+                "ZH_CN": "我谁？！"
+            },
+            "inputTime": 1414,
+            "id": "E1_6",
+            "nextid": "E1_7",
+            "nextMessageDelayTime": 1414,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_123": {
+            "contents": {
+                "ZH_CN": "可能我们都在责怪对方，也同时都在责怪自己"
+            },
+            "inputTime": 4116,
+            "id": "E1_123",
+            "nextid": "E1_124",
+            "nextMessageDelayTime": 4116,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_244": {
+            "contents": {
+                "ZH_CN": "不过他就经常带我去图书馆，要么就带我去他公司玩，搞笑吧？"
+            },
+            "inputTime": 5614,
+            "id": "E1_244",
+            "nextid": "E1_245",
+            "nextMessageDelayTime": 5614,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_7": {
+            "contents": {
+                "ZH_CN": "你这么快就不记得我了？？"
+            },
+            "inputTime": 3005,
+            "id": "E1_7",
+            "nextid": "E1_8",
+            "nextMessageDelayTime": 3005,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_8": {
+            "contents": {
+                "ZH_CN": "你去死！"
+            },
+            "inputTime": 1468,
+            "id": "E1_8",
+            "nextid": "E1_9",
+            "nextMessageDelayTime": 1468,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_9": {
+            "contents": {
+                "ZH_CN": "再见！"
+            },
+            "inputTime": 1379,
+            "id": "E1_9",
+            "nextid": "E1_10",
+            "nextMessageDelayTime": 1379,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_240": {
+            "contents": {
+                "ZH_CN": "blahblahblah..."
+            },
+            "inputTime": 3096,
+            "id": "E1_240",
+            "nextid": "E1_241",
+            "nextMessageDelayTime": 3096,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_117": {
+            "contents": {
+                "ZH_CN": "这不是有你么？"
+            },
+            "inputTime": 1415,
+            "id": "E1_117",
+            "nextid": "E1_118",
+            "nextMessageDelayTime": 1415,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_238": {
+            "contents": {
+                "ZH_CN": "衣服不许乱扔！为什么不穿鞋在家里跑！你的东西我怎么知道在哪儿！看看你的电脑桌面都乱成什么样了！要是我一把全部给你删了！"
+            },
+            "inputTime": 11805,
+            "id": "E1_238",
+            "nextid": "E1_239",
+            "nextMessageDelayTime": 11805,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_118": {
+            "contents": {
+                "ZH_CN": "突然觉得好像就是你还比较谈得来"
+            },
+            "inputTime": 3597,
+            "id": "E1_118",
+            "nextid": "E1_119",
+            "nextMessageDelayTime": 3597,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_239": {
+            "contents": {
+                "ZH_CN": "所有东西都应该有它唯一的位置！"
+            },
+            "inputTime": 3733,
+            "id": "E1_239",
+            "nextid": "E1_240",
+            "nextMessageDelayTime": 3733,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_119": {
+            "contents": {
+                "ZH_CN": "我妈妈两年前出事之前，我其实还是挺爱说话的"
+            },
+            "inputTime": 4805,
+            "id": "E1_119",
+            "nextid": "E1_choicee_23",
+            "nextMessageDelayTime": 4805,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_113": {
+            "contents": {
+                "ZH_CN": "还是做做自己喜欢的事情最好"
+            },
+            "inputTime": 2662,
+            "id": "E1_113",
+            "nextid": "E1_114",
+            "nextMessageDelayTime": 2662,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_234": {
+            "contents": {
+                "ZH_CN": "想想也真可怕，做父母好难啊，我以后才不要当父母"
+            },
+            "inputTime": 5305,
+            "id": "E1_234",
+            "nextid": "E1_choicee_34",
+            "nextMessageDelayTime": 5305,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_114": {
+            "contents": {
+                "ZH_CN": "再说了..."
+            },
+            "inputTime": 1757,
+            "id": "E1_114",
+            "nextid": "E1_117",
+            "nextMessageDelayTime": 1757,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "哎可能大家都这样吧，倒不是内向，只是有时候就觉得对着人没有什么话讲，有什么好聊的啊",
+            "isDayStart": false
+        },
+        "E1_235": {
+            "contents": {
+                "ZH_CN": "哈哈哈哈哈随便说说嘛"
+            },
+            "inputTime": 2313,
+            "id": "E1_235",
+            "nextid": "E1_236",
+            "nextMessageDelayTime": 2313,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "daily": "子女皆祸害...",
+            "isDayStart": false
+        },
+        "E1_115": {
+            "contents": {
+                "ZH_CN": "嗯，不知道，家里就我和爸爸"
+            },
+            "inputTime": 2629,
+            "id": "E1_115",
+            "nextid": "E1_116",
+            "nextMessageDelayTime": 2629,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_236": {
+            "contents": {
+                "ZH_CN": "我爸就是一个严谨的科学家，可怕..."
+            },
+            "inputTime": 3871,
+            "id": "E1_236",
+            "nextid": "E1_237",
+            "nextMessageDelayTime": 3871,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_116": {
+            "contents": {
+                "ZH_CN": "他每天都忙，我也是习惯了一个人"
+            },
+            "inputTime": 3641,
+            "id": "E1_116",
+            "nextid": "E1_choicee_22",
+            "nextMessageDelayTime": 3641,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_237": {
+            "contents": {
+                "ZH_CN": "成天就要求我这，看不惯我那的"
+            },
+            "inputTime": 3342,
+            "id": "E1_237",
+            "nextid": "E1_238",
+            "nextMessageDelayTime": 3342,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_11": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "你你你..."
+                    },
+                    "nextid": "E1_39"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "吃了啊"
+                    },
+                    "nextid": "E1_33"
+                }
+            ],
+            "id": "E1_choicee_11",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_12": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "对！"
+                    },
+                    "nextid": "E1_50"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "对..."
+                    },
+                    "nextid": "E1_50"
+                }
+            ],
+            "id": "E1_choicee_12",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_10": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "你昨天说请我吃蛋糕呢？"
+                    },
+                    "nextid": "E1_32"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "你自己做？"
+                    },
+                    "nextid": "E1_43"
+                }
+            ],
+            "id": "E1_choicee_10",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_15": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "可是你退学了"
+                    },
+                    "nextid": "E1_44"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "然而并没有毕业"
+                    },
+                    "nextid": "E1_44"
+                }
+            ],
+            "id": "E1_choicee_15",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_16": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "好吧..."
+                    },
+                    "nextid": "E1_50"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "算了不跟你计较"
+                    },
+                    "nextid": "E1_50"
+                }
+            ],
+            "id": "E1_choicee_16",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_13": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "好！"
+                    },
+                    "nextid": "E1_42"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "我不吃！"
+                    },
+                    "nextid": "E1_46"
+                }
+            ],
+            "id": "E1_choicee_13",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_14": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "你会做？"
+                    },
+                    "nextid": "E1_43"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "你确定能吃？"
+                    },
+                    "nextid": "E1_43"
+                }
+            ],
+            "id": "E1_choicee_14",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_6": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "咦？这也怪我？"
+                    },
+                    "nextid": "E1_23"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "我怎么拦得住..."
+                    },
+                    "nextid": "E1_23"
+                }
+            ],
+            "id": "E1_choicee_6",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_19": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "打发是有技巧的哦"
+                    },
+                    "nextid": "E1_90"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "没毛病老铁！"
+                    },
+                    "nextid": "E1_183"
+                }
+            ],
+            "id": "E1_choicee_19",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_7": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "但愿吧..."
+                    },
+                    "nextid": "E1_25"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "你又在树flag"
+                    },
+                    "nextid": "E1_25"
+                }
+            ],
+            "id": "E1_choicee_7",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_8": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "我偏不猜"
+                    },
+                    "nextid": "E1_27"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "吃、睡、躺着"
+                    },
+                    "nextid": "E1_27"
+                }
+            ],
+            "id": "E1_choicee_8",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_17": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "感觉不对呢"
+                    },
+                    "nextid": "E1_69"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "就这样没错！Miko真厉害！"
+                    },
+                    "nextid": "E1_174"
+                }
+            ],
+            "id": "E1_choicee_17",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_9": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "这是？"
+                    },
+                    "nextid": "E1_31"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "做菜？"
+                    },
+                    "nextid": "E1_30"
+                }
+            ],
+            "id": "E1_choicee_9",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_18": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "220度，40分钟"
+                    },
+                    "nextid": "E1_180"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "170度，30分钟"
+                    },
+                    "nextid": "E1_85"
+                }
+            ],
+            "id": "E1_choicee_18",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_2": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "好啦，跟你开玩笑嘛"
+                    },
+                    "nextid": "E1_13"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "你也太冲动了"
+                    },
+                    "nextid": "E1_13"
+                }
+            ],
+            "id": "E1_choicee_2",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_3": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "好好好"
+                    },
+                    "nextid": "E1_15"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "不会了不会了"
+                    },
+                    "nextid": "E1_15"
+                }
+            ],
+            "id": "E1_choicee_3",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_4": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "你那边状况怎样？"
+                    },
+                    "nextid": "E1_19"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "正想问你现在怎样呢"
+                    },
+                    "nextid": "E1_19"
+                }
+            ],
+            "id": "E1_choicee_4",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_5": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "没有呢"
+                    },
+                    "nextid": "E1_18"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "你没事就最好啦"
+                    },
+                    "nextid": "E1_19"
+                }
+            ],
+            "id": "E1_choicee_5",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_choicee_1": {
+            "choicesList": [
+                {
+                    "contents": {
+                        "ZH_CN": "在的"
+                    },
+                    "nextid": "E1_16"
+                },
+                {
+                    "contents": {
+                        "ZH_CN": "你谁？"
+                    },
+                    "nextid": "E1_6"
+                }
+            ],
+            "id": "E1_choicee_1",
+            "nextMessageDelayTime": 0,
+            "day": "D1",
+            "type": "CHOICE_TEXT",
+            "isDayStart": false
+        },
+        "E1_200": {
+            "contents": {
+                "ZH_CN": "沉默可能是一种自我保护吧，看着那些人情与世事都没什么感动的"
+            },
+            "inputTime": 6044,
+            "id": "E1_200",
+            "nextid": "E1_201",
+            "nextMessageDelayTime": 6044,
+            "day": "D1",
+            "type": "MIKO_TEXT",
+            "isDayStart": false
+        }
+    },
+    "daysIndex": {
+        "D1": "E1_1"
+    },
+    "dds": [
+        {
+            "dicId": "E1_1",
+            "messageId": "E1_3",
+            "title": "莫西莫西",
+            "content": "日语电话打招呼用语，平假名もしもし，片假名モシモシ。",
+            "status": 0
+        }
+    ]
+}
